@@ -1,5 +1,5 @@
 <?php
-	require_once('inclues/common.inc');
+	require_once('includes/common.inc');
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -21,6 +21,6 @@
 	<title>Home | <?=SITE_NAME?></title>
 </head>
 <body>
-	
+	<?php require_once('includes/header.php');?>
 </body>
 </html>
