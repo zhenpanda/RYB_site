@@ -22,5 +22,7 @@
 </head>
 <body>
 	<?php require_once('includes/header.php');?>
+	<!-- 红黄蓝<br />红黄蓝 -->
+	
 </body>
 </html>

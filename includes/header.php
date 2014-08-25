@@ -14,7 +14,7 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="ryb-navbar">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Link</a></li>
+        <li class="active"><a href="#">藝術畫廊</a></li>
         <li><a href="#">Link</a></li>
       </ul>
     </div><!-- /.navbar-collapse -->
