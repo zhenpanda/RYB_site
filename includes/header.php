@@ -8,14 +8,20 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">Brand</a>
+      <a class="logo" href="#">
+      	<img src="images/logo.png" alt="logo" />
+      </a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="ryb-navbar">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="#">藝術畫廊</a></li>
-        <li><a href="#">Link</a></li>
+        <li><a href="#">藝術畫廊</a></li>
+        <li><a href="#">學校簡介</a></li>
+        <li><a href="#">學生登錄</a></li>
+        <li><a href="#">藝術畫廊</a></li>
+        <li><a href="#">聯絡網頁</a></li>
+        <li><a href="#">教師招聘</a></li>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->

@@ -1,18 +1,26 @@
 .navbar-default{
 	background-image: none;
 	background-color: @ryb_background_dark;
+	border-top: 20px solid @ryb_background_light;
+	border-bottom: 5px solid @ryb_white;
+	.logo{
+		padding: 7px 13px 7px 36px;
+		display: block;
+	}
 	.navbar-nav{
+		margin-top: 43px;
 		> li{
+			padding: 0 15px;
 			> a{
 				font-size: @ryb_navbar_font_size;
 				line-height: @ryb_navbar_line_height;
 				background-color: transparent;
 				color: @ryb_brown;
-				border-bottom: 9px solid transparent;
-				padding: 32px 22px;
-				padding-bottom: 22px - 9px;
+				border-bottom: 8px solid transparent;
+				padding: 0;
 				&:hover{
-					border-color: @ryb_background_light;
+					border-color: @ryb_brown;
+					color: lighten(@ryb_brown, 10%);
 				}
 			}
 
