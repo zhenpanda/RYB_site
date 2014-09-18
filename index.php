@@ -23,6 +23,9 @@
 <body>
 	<?php require_once('includes/header.php');?>
 	<!-- 红黄蓝<br />红黄蓝 -->
+	<p>
+		<img src="images/mainPagePic.png" alt="mainImg"  />
+	</p>
 	
 </body>
 </html>
