@@ -14,12 +14,45 @@
 body {
   background-color: #ffffff;
   font-family: "Microsoft YaHei", STHeiti;
-  font-size: 14px;
-  line-height: 25px;
+  font-size: 12px;
+  line-height: 14px;
   color: #996633;
 }
 a:hover {
   text-decoration: underline;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  margin: 0;
+}
+h1,
+.h1 {
+  font-size: 30px;
+}
+.ryb-red {
+  color: #d53e35;
+}
+.ryb-yellow {
+  color: #ffcc66;
+}
+.ryb-blue {
+  color: #66cccc;
+}
+.ryb-purple {
+  color: #cc66cc;
+}
+.ryb-black {
+  color: #000000;
 }
 .navbar-default {
   background-image: none;
@@ -56,4 +89,12 @@ a:hover {
 }
 .navbar-default .navbar-nav > li.active > a:hover {
   background-color: transparent;
+}
+.footer-wrap {
+  background-color: #fee4ad;
+  border-top: 5px solid #ffffff;
+  border-bottom: 23px solid #faf3d2;
+  -webkit-box-shadow: 1px -1px 13px 0px rgba(50, 50, 50, 0.1);
+  -moz-box-shadow: 1px -1px 13px 0px rgba(50, 50, 50, 0.1);
+  box-shadow: 1px -1px 13px 0px rgba(50, 50, 50, 0.1);
 }

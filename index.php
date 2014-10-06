@@ -26,6 +26,6 @@
 	<p>
 		<img src="images/mainPagePic.png" alt="mainImg"  />
 	</p>
-	
+	<?php require_once('includes/footer.php');?>
 </body>
 </html>

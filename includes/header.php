@@ -1,4 +1,5 @@
 <nav class="navbar navbar-default" role="navigation">
+
   <div class="container">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
@@ -9,7 +10,7 @@
         <span class="icon-bar"></span>
       </button>
       <a class="logo" href="#">
-      	<img src="images/logo.png" alt="logo" />
+      	<img src="images/logoFull.png" alt="logo" />
       </a>
     </div>
 
@@ -25,4 +26,5 @@
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
+
 </nav>
