@@ -54,6 +54,12 @@ h1,
 .ryb-black {
   color: #000000;
 }
+.box {
+  margin: 24px 0px 24px 0px;
+}
+.smallbox {
+  margin: 0px 0px 10px 0px;
+}
 .navbar-default {
   background-image: none;
   background-color: #fee4ad;
