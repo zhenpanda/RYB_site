@@ -8,8 +8,14 @@ body{
 a{
 	&:hover{
 		text-decoration: underline;
+		color: @ryb_brown;
 	}
-
+	&:visited{
+		color: lighten(@ryb_brown, 15%);
+	}
+	&:active{
+		background-color: @ryb_white;
+	}
 }
 
 h1,h2,h3,h4,h5,h6,
@@ -37,9 +43,15 @@ h1,
 	color: @ryb_black;
 }
 
-.box{
-	margin: 24px 0px 24px 0px;
+.color-title{
+	margin-bottom: 24px;
 }
-.smallbox{
-	margin: 0px 0px 10px 0px;
+
+.row-big{
+	margin-left: -45px;
+	margin-right: -45px;
+	> div{
+		padding-left: 45px;
+		padding-right: 45px;
+	}
 }
