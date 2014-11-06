@@ -23,7 +23,7 @@
   }
 }
 body {
-  background-color: #ffffff;
+  background-color: #faf3d2;
   font-family: "Microsoft YaHei", STHeiti;
   font-size: 12px;
   line-height: 14px;
@@ -137,4 +137,14 @@ h1,
 }
 .footer-wrap ul li {
   padding-bottom: 10px;
+}
+
+.blockSpacing {
+  width: auto;
+}
+
+.blockNudge {
+  margin-left: 36px;
+  margin-top: 8px;
+  margin-bottom: 11px;
 }

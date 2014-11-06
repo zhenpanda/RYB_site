@@ -26,7 +26,7 @@
 						<a href="#" class="location">
 							<h6 class="ryb-black">艾姆赫斯特</h6>
 							<p>
-								83-25 Broadway, #3F<br />
+								83-25Broadway,#3F<br />
 								Elmhurst NY 11373
 							</p>			
 						</a>
