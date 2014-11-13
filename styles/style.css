@@ -1,6 +1,7 @@
 /*Colors*/
 /*Fonts*/
 /*Navbar*/
+
 .spacing-reset {
   padding: 0;
   border: 0;
@@ -29,6 +30,64 @@ body {
   line-height: 14px;
   color: #996633;
 }
+
+.mid-frontpage {
+  background-color: #fee4ad;
+  width: 960px;
+  height: 686px;
+  padding-top: 43px;
+  padding-left: 36px;
+  padding-right: 36px;
+}
+
+.mid-divider-light{
+  background-color: #faf3d2;
+  width: 223px;
+  height: 9px;
+  margin-top: 15px;
+  margin-bottom: 0px;
+}
+
+.teaser-block{
+  background-color: #faf3d2;
+  width: 302px;
+  height: 88px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.mid-page-image{
+    margin-top: 10px;
+    margin-left: 32px;
+    width: 557px;
+}
+
+.bottom-frontpage{
+  margin-top: 31px;
+  padding-left: 36px;
+  width: 960px;
+  height: 512px;
+  background-color: #faf3d2;
+}
+
+.mid-divider-dark{
+  background-color: #fee4ad;
+  width: 250px;
+  height: 8px;
+  margin-top: 6px;
+  margin-bottom: 0px;
+}
+
+.bottom-image-set{
+  width: 856px;
+  margin-top: 36px;
+}
+
+.bottom-mid-image{
+  margin-left: 42px;
+  margin-right: 42px;
+}
+
 a:hover {
   text-decoration: underline;
   color: #996633;
@@ -143,8 +202,15 @@ h1,
   width: auto;
 }
 
-.blockNudge {
+.page-center{
   margin-left: 36px;
+  margin-right: 36px;
+  width: 888px;
+}
+
+.blockNudge {
+  margin-left: 75px;
   margin-top: 8px;
   margin-bottom: 11px;
+  width: 816px;
 }
