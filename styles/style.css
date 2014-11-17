@@ -1,7 +1,6 @@
 /*Colors*/
 /*Fonts*/
 /*Navbar*/
-
 .spacing-reset {
   padding: 0;
   border: 0;
@@ -30,64 +29,9 @@ body {
   line-height: 14px;
   color: #996633;
 }
-
-.mid-frontpage {
-  background-color: #fee4ad;
-  width: 960px;
-  height: 686px;
-  padding-top: 43px;
-  padding-left: 36px;
-  padding-right: 36px;
+a {
+  color: #996633;
 }
-
-.mid-divider-light{
-  background-color: #faf3d2;
-  width: 223px;
-  height: 9px;
-  margin-top: 15px;
-  margin-bottom: 0px;
-}
-
-.teaser-block{
-  background-color: #faf3d2;
-  width: 302px;
-  height: 88px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-
-.mid-page-image{
-    margin-top: 10px;
-    margin-left: 32px;
-    width: 557px;
-}
-
-.bottom-frontpage{
-  margin-top: 31px;
-  padding-left: 36px;
-  width: 960px;
-  height: 512px;
-  background-color: #faf3d2;
-}
-
-.mid-divider-dark{
-  background-color: #fee4ad;
-  width: 250px;
-  height: 8px;
-  margin-top: 6px;
-  margin-bottom: 0px;
-}
-
-.bottom-image-set{
-  width: 856px;
-  margin-top: 36px;
-}
-
-.bottom-mid-image{
-  margin-left: 42px;
-  margin-right: 42px;
-}
-
 a:hover {
   text-decoration: underline;
   color: #996633;
@@ -197,20 +141,43 @@ h1,
 .footer-wrap ul li {
   padding-bottom: 10px;
 }
-
-.blockSpacing {
-  width: auto;
-}
-
-.page-center{
-  margin-left: 36px;
-  margin-right: 36px;
-  width: 888px;
-}
-
-.blockNudge {
-  margin-left: 75px;
+.homepage-links {
   margin-top: 8px;
   margin-bottom: 11px;
-  width: 816px;
+}
+.homepage-middle-wrapper {
+  background-color: #fee4ad;
+  padding-top: 43px;
+  padding-bottom: 68px;
+}
+.underline-title {
+  padding-bottom: 15px;
+  border-bottom: 9px solid #faf3d2;
+  margin-bottom: 11px;
+  float: left;
+  padding-right: 139px;
+}
+.teaser-block {
+  background-color: #faf3d2;
+  height: 88px;
+  margin-bottom: 20px;
+}
+.homepage-image-row {
+  margin-bottom: 20px;
+}
+.homepage-image-row a:first-child {
+  margin-right: 8px;
+}
+.underline-title-bottom {
+  border-color: #fee4ad;
+  padding-right: 0;
+  padding-bottom: 6px;
+  margin-bottom: 32px;
+}
+.homepage-bottom {
+  padding-top: 31px;
+  padding-bottom: 85px;
+}
+.circle-image-link .h1 {
+  padding-top: 44px;
 }
