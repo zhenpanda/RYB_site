@@ -86,6 +86,10 @@ h1,
   padding-left: 45px;
   padding-right: 45px;
 }
+.h7 {
+  font-size: 12px;
+  line-height: 22px;
+}
 .navbar-default {
   background-image: none;
   background-color: #fee4ad;
@@ -180,4 +184,35 @@ h1,
 }
 .circle-image-link .h1 {
   padding-top: 44px;
+}
+.blog-banner {
+  margin-top: 21px;
+  background-color: #fee4ad;
+  padding-top: 18px;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+.blog-underline {
+  padding-bottom: 6px;
+  border-bottom: 6px solid #ffffff;
+  margin-bottom: 6px;
+  float: left;
+  padding-right: 0px;
+}
+.blog-text-block {
+  background-color: #fee4ad;
+  margin-top: 20px;
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.blog-text-space-small {
+  margin-bottom: 10px;
+}
+.blog-text-space-big {
+  margin-bottom: 32px;
+}
+.blog-stand-in-block {
+  background-color: #ffffff;
+  padding-bottom: 158px;
 }
