@@ -25,8 +25,8 @@
 body {
   background-color: #faf3d2;
   font-family: "Microsoft YaHei", STHeiti;
-  font-size: 12px;
-  line-height: 14px;
+  font-size: 14px;
+  line-height: 1.13em;
   color: #996633;
 }
 a {
@@ -54,11 +54,16 @@ h6,
 .h4,
 .h5,
 .h6 {
+  line-height: 1.13em;
   margin: 0;
 }
 h1,
 .h1 {
   font-size: 30px;
+}
+h2,
+.h2 {
+  font-size: 24px;
 }
 .ryb-red {
   color: #d53e35;
@@ -87,8 +92,36 @@ h1,
   padding-right: 45px;
 }
 .h7 {
-  font-size: 12px;
+  font-size: 14px;
   line-height: 22px;
+}
+.img-full-width {
+  width: 100%;
+}
+p {
+  letter-spacing: 0.08em;
+}
+q {
+  display: block;
+  line-height: 1.13em;
+  margin: 0;
+  font-size: 24px;
+  line-height: 1.4em;
+  padding: 10px 0;
+  border-top: 3px solid;
+  border-bottom: 3px solid;
+  border-color: #ffffff;
+  margin: 10px 10px 0px 10px;
+}
+q.quote-left {
+  float: left;
+}
+q.quote-right {
+  float: right;
+}
+q:before,
+q:after {
+  content: "";
 }
 .navbar-default {
   background-image: none;
@@ -205,12 +238,20 @@ h1,
   padding-top: 20px;
   padding-left: 10px;
   padding-right: 10px;
+  padding-bottom: 126px;
+  margin-bottom: 106px;
+}
+.blog-text-block p {
+  font-size: 14px;
+  line-height: 22px;
+  margin-bottom: 32px;
+}
+.blog-text-block p.quote-margin-offset {
+  margin-top: -22px;
+  margin-bottom: 16px;
 }
 .blog-text-space-small {
   margin-bottom: 10px;
-}
-.blog-text-space-big {
-  margin-bottom: 32px;
 }
 .blog-stand-in-block {
   background-color: #ffffff;

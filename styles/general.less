@@ -21,12 +21,17 @@ a{
 
 h1,h2,h3,h4,h5,h6,
 .h1,.h2,.h3,.h4,.h5,.h6{
+	line-height: 1.13em;
 	margin: 0;
 }
 
 h1,
 .h1{
 	font-size: @ryb_h1_font_size;
+}
+h2,
+.h2{
+	font-size: @ryb_h2_font_size;
 }
 .ryb-red{
 	color: @ryb_red;
@@ -60,4 +65,36 @@ h1,
 .h7{
 	font-size: @ryb_font_size;
 	line-height: 22px;
+}
+
+.img-full-width{
+	width: 100%;
+}
+
+p{
+	letter-spacing: 0.08em;
+}
+
+q{
+	display: block;
+	.h2;
+	line-height: 1.4em;
+	padding: 10px 0;
+	border-top: 3px solid;
+	border-bottom: 3px solid;
+	border-color: @ryb_white;
+	margin: 10px 10px 0px 10px;
+
+	&.quote-left{
+		float: left;
+	}
+	&.quote-right{
+		float: right;
+	}
+
+
+	&:before,
+	&:after{
+		content: "";
+	}
 }
