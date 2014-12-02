@@ -18,7 +18,7 @@
 					<div class="h1 color-title blog-underline"><span class="ryb-red">紅</span><span class="ryb-blue">黃</span><span class="ryb-yellow">藍</span><span class="ryb-purple">美術學校</span><span class="ryb-brown">秋季班招生</span></div>
 				</div>
 				<!--|_________||___|-->
-				<div class="col-xs-">
+				<div class="col-xs-12">
 					<div class="h5 text-right">更新於2014年9月23日，上午10時50分美東時間</div>
 				</div>
 			</div>
@@ -29,9 +29,10 @@
 	<div class="container "> 
 		<div class="row">
 			<!--|_________||___|-->
-			<div class="col-xs-9 "> 
+			<div class="col-xs-9 ">
+				<!--Main Image --> 
 				<div class="text-center"><img class="img-responsive img-full-width" src="images/KidsClassroom.png" alt="" /></div>
-
+				<!--Text blocks and quotes -->
 				<div class="blog-text-block">
 					<div class="row">
 
@@ -50,7 +51,27 @@
 			</div>
 			
 			<!--|_________||___|-->
-			<div class="col-xs-3"></div>
+			<div class="col-xs-3">
+				<!--Side Teaser Links -->
+				<div class="row">
+					
+					<div class="col-xs-12 teaser-placement">
+						<div class="teaser-links"><p>請閱讀此頁</p></div>
+						<div class="teaser-links">
+							 <ul>
+ 								<li><a href="#">課程折扣定價</a></li>
+  								<li><a href="#">秋天美術館</a></li>
+  								<li><a href="#">新老師的故事</a></li>
+  								<li><a href="#">新學生作品</a></li>
+  								<li><a href="#">大家新年快樂</a></li>
+							</ul> 
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+
 		</div>
 	</div>
 

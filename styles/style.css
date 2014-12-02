@@ -26,7 +26,7 @@ body {
   background-color: #faf3d2;
   font-family: "Microsoft YaHei", STHeiti;
   font-size: 14px;
-  line-height: 1.13em;
+  line-height: 1.1em;
   color: #996633;
 }
 a {
@@ -64,6 +64,12 @@ h1,
 h2,
 .h2 {
   font-size: 24px;
+}
+.h3 {
+  font-size: 21px;
+}
+.h4 {
+  font-size: 18px;
 }
 .ryb-red {
   color: #d53e35;
@@ -256,4 +262,46 @@ q:after {
 .blog-stand-in-block {
   background-color: #ffffff;
   padding-bottom: 158px;
+}
+.teaser-placement {
+  margin: 60px 45px 0px 45px;
+}
+.teaser-links p {
+  line-height: 1.13em;
+  margin: 0;
+  font-size: 21px;
+  padding-bottom: 10px;
+  border-bottom: 10px solid #ffffff;
+  margin: 0 10px 20px 10px;
+  float: left;
+}
+.teaser-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  float: left;
+}
+.teaser-links li {
+  line-height: 1.13em;
+  margin: 0;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+.teaser-links li:before {
+  content: "• ";
+}
+.teaser-links li:nth-child(1) {
+  color: #d53e35;
+}
+.teaser-links li:nth-child(2) {
+  color: #ffcc66;
+}
+.teaser-links li:nth-child(3) {
+  color: #66cccc;
+}
+.teaser-links li:nth-child(4) {
+  color: #99cc33;
+}
+.teaser-links li:nth-child(5) {
+  color: #cc66cc;
 }
