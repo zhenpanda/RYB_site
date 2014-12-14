@@ -17,7 +17,7 @@
 
 			<!-- Main Page Image -->
 			<div class="col-xs-12 text-center">
-				<img src="images/mainPagePic.png" alt="" /> 
+				<img src="images/mainPagePic.jpg" alt="" /> 
 			</div>
 
 			<div class="col-xs-12 text-center homepage-links">
