@@ -10,7 +10,7 @@
         <span class="icon-bar"></span>
       </button>
       <a class="logo" href="#">
-      	<img src="images/logoFull2.png" alt="logo" />
+      	<img src="images/Home Page Img Folder/logo.png" alt="logo" />
       </a>
     </div>
 
