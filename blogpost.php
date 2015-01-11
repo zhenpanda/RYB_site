@@ -31,7 +31,7 @@
 			<!--|_________||___|-->
 			<div class="col-xs-9 ">
 				<!--Main Image --> 
-				<div class="text-center"><img class="img-responsive img-full-width" src="images/KidsClassroom.png" alt="" /></div>
+				<div class="text-center"><img class="img-responsive img-full-width" src="images/BlogPost Page Img Folder/KidsClassroom.jpg" alt="" /></div>
 				<!--Text blocks and quotes -->
 				<div class="blog-text-block">
 					<div class="row">
