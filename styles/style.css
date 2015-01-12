@@ -289,6 +289,7 @@ q:after {
 }
 .teaser-links li:before {
   content: "• ";
+  font-size: 30px;
 }
 .teaser-links li:nth-child(1) {
   color: #d53e35;

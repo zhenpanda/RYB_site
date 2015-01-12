@@ -1,3 +1,7 @@
+<?php
+require_once('content/footer.inc'); 
+?>
+
 <footer class="footer-wrap">
 		
 	<div class="container">
@@ -11,53 +15,24 @@
 		<div class="row row-big">
 			<div class="col-xs-4">
 			<!-- |___| |___| |___| -->
-				<div class="row">
+				<div class="row">	
 					<div class="col-xs-6">
 					<!-- |_||_| |__| |__| -->
+						<?php foreach($addresses as $count => $address): ?>
+							<?php if($count == 3):?>
+								<div class="col-xs-6">
+								<!-- |_||_| |__| |__| -->
+							<?php endif;?>
 
-						<a href="#" class="location">
-							<h6 class="ryb-black">法拉盛分校</h6>
-							<p>
-								136-18 39Ave, 9FL<br />
-								Flushing NY 11354
-							</p>
-						</a>
+							<a href="/<?=$location_links[$count]?>" class="location">
+								<h6 class="ryb-black"><?=$location_titles[$language][$count]?></h6>
+								<p><?=$address?></p>
+							</a>
 
-						<a href="#" class="location">
-							<h6 class="ryb-black">艾姆赫斯特</h6>
-							<p>
-								83-25Broadway,#3F<br />
-								Elmhurst NY 11373
-							</p>			
-						</a>
-
-						<a href="#" class="location">	
-							<h6 class="ryb-black">來電垂詢</h6>
-							<p>
-								1-718-886-4008<br />
-								1-917-822-4139
-							</p>	
-						</a>
-					</div>
-				
-					<div class="col-xs-6">
-
-						<a href="#" class="location">
-							<h6 class="ryb-black">布碌崙分校</h6>
-							<p>
-								6402 8th Ave, #220<br />
-								Brooklyn NY 11220
-							</p>
-						</a>
-
-						<a href="#" class="location">
-							<h6 class="ryb-black">唐人街分校</h6>
-							<p>
-								265 Canal St, #401<br />
-								New York, NY 10013
-							</p>		
-						</a>
-
+							<?php if($count == 2):?>
+								</div>
+							<?php endif;?>
+						<?php endforeach ?>
 					</div>	
 				</div>
 			</div>

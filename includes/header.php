@@ -1,3 +1,7 @@
+<?php
+require_once('content/header.inc'); 
+?>
+
 <nav class="navbar navbar-default" role="navigation">
 
   <div class="container">
@@ -17,12 +21,9 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="ryb-navbar">
       <ul class="nav navbar-nav">
-        <li><a href="#">學校簡介</a></li>
-        <li><a href="#">報名信息</a></li>
-        <li><a href="#">學生登錄</a></li>
-        <li><a href="#">藝術畫廊</a></li>
-        <li><a href="#">聯絡網頁</a></li>
-        <li><a href="#">教師招聘</a></li>
+        <?php foreach($header_links as $count => $link): ?>
+          <li><a href="/<?=$link ?>"><?=$header_titles[$language][$count]?></a></li>
+        <?php endforeach; ?>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
