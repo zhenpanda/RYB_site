@@ -62,7 +62,7 @@ require_once('content/footer.inc');
 			<div class="col-xs-4">
 				<!-- |__| |__| |__| -->
 			     <a class="logo" href="#">
-			     	<img src="images/logoFull2.png" alt="logo" />
+			     	<img src="images/Home Page Img Folder/logoBig.png" alt="logo" />
 			     </a>
 			</div>
 		</div>
