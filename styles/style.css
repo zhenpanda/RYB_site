@@ -224,6 +224,15 @@ q:after {
 .circle-image-link .h1 {
   padding-top: 44px;
 }
+.box-image {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.box-text {
+  z-index: 100;
+  position: absolute;
+}
 .blog-banner {
   margin-top: 21px;
   background-color: #fee4ad;
