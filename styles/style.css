@@ -1,6 +1,9 @@
 /*Colors*/
 /*Fonts*/
 /*Navbar*/
+
+/*Default CSS*/
+/*----------------------------------------------------------------------------------------------------*/
 .spacing-reset {
   padding: 0;
   border: 0;
@@ -129,6 +132,15 @@ q:before,
 q:after {
   content: "";
 }
+
+/*Index CSS*/
+/*----------------------------------------------------------------------------------------------------*/
+.four-box-spacing{
+  margin: 0px -5px 0px -5px;  
+}
+
+/*Navbar CSS*/
+/*----------------------------------------------------------------------------------------------------*/
 .navbar-default {
   background-image: none;
   background-color: #fee4ad;
@@ -165,6 +177,9 @@ q:after {
 .navbar-default .navbar-nav > li.active > a:hover {
   background-color: transparent;
 }
+
+/*Footer CSS*/
+/*----------------------------------------------------------------------------------------------------*/
 .footer-wrap {
   background-color: #fee4ad;
   border-top: 5px solid #ffffff;
@@ -224,6 +239,9 @@ q:after {
 .circle-image-link .h1 {
   padding-top: 44px;
 }
+
+/*Blogpost CSS*/
+/*----------------------------------------------------------------------------------------------------*/
 .box-image {
   position: absolute;
   left: 0;

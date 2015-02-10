@@ -22,7 +22,7 @@
 			<div class="col-xs-12 text-center homepage-links">
 			<!-- Block links -->			 
 				<?php for($count = 0; $count < 4; $count++): ?>
-          			<a href="#" class=""><img src="<?=$box_images[$count] ?>" alt=""></a>
+          			<div class="col-xs-3 spacing-reset four-box-spacing"><a href="#" class=""><img src="<?=$box_images[$count] ?>" alt=""></a></div>
         		<?php endfor; ?>
         	</div>
 		</div>
