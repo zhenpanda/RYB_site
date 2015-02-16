@@ -19,10 +19,41 @@
 			<div class="col-xs-12 text-center">
 				<img src="images/mainPagePic.jpg" alt="" /> 
 			</div>
+<!--
+			<div class="col-xs-12 text-center homepage-links">	 		 
+				<a href="#" class=""><img src="images/missionCutOut.png" alt=""></a><a href="#" class=""><img src="images/applyBlock.png" alt=""></a><a href="#" class=""><img src="images/visitBlock.png" alt=""></a><a href="#" class=""><img src="images/teacherBlock.png" alt=""></a>
+			</div>
+-->
+		</div>
 
-			<div class="col-xs-12 text-center homepage-links">
-				<!-- Block links -->			 
-				<a href="#" class=""><img src="images/missionBlock.png" alt=""></a><a href="#" class=""><img src="images/applyBlock.png" alt=""></a><a href="#" class=""><img src="images/visitBlock.png" alt=""></a><a href="#" class=""><img src="images/teacherBlock.png" alt=""></a>
+		<div class="row homepage-links">
+			<div class="col-xs-10 col-xs-offset-1">
+				<div class="row">
+					<div class="col-xs-3 block-link ryb-bg-red">
+						<a href="#" class="">
+							<img src="images/missionCutOut.png" alt="" />
+							<div class="h2">教育目標</div>							
+						</a>
+					</div>
+					<div class="col-xs-3 block-link ryb-bg-yellow">
+						<a href="#" class="">
+							<img src="images/missionCutOut.png" alt="" />
+							<div class="h2">教育目標</div>							
+						</a>
+					</div>
+					<div class="col-xs-3 block-link mission">
+						<a href="#" class="">
+							<img src="images/missionCutOut.png" alt="" />
+							<div class="h2">教育目標</div>							
+						</a>
+					</div>
+					<div class="col-xs-3 block-link mission">
+						<a href="#" class="">
+							<img src="images/missionCutOut.png" alt="" />
+							<div class="h2">教育目標</div>							
+						</a>
+					</div>										
+				</div>
 			</div>
 		</div>
 	</div>
