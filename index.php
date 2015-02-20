@@ -7,6 +7,9 @@
 <html lang="en">
 <!-- load head -->
 <?php require_once('includes/head.php');?>
+<link rel="icon" 
+      type="image/png" 
+      href="images/favicon.png">
 
 <body>
 	<!-- Header Nav Bar -->
@@ -21,9 +24,16 @@
 			<!-- Main Page Image -->
 			<div class="col-xs-12 text-center homepage-links">
 			<!-- Block links -->			 
-				<?php for($count = 0; $count < 4; $count++): ?>
-          			<div class="col-xs-3 spacing-reset four-box-spacing"><a href="#" class=""><img src="<?=$box_images[$count] ?>" alt=""></a></div>
-        		<?php endfor; ?>
+				<div class="four-box-spacing">
+					<?php for($count = 0; $count < 4; $count++): ?>
+	          			<div class="col-xs-3 spacing-reset">
+	          				<a href="#" class="">
+	          					<img src="<?=$box_images[$count] ?>" alt="">
+	          					<h2 class="box-text"><?=$boxes_links[$language][$count]?></h2>
+	          				</a>
+	          			</div>
+	        		<?php endfor; ?>
+	        	</div>
         	</div>
 		</div>
 	</div>
