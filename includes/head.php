@@ -12,6 +12,7 @@
 	<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 
 	<link rel="stylesheet" href="styles/style.css">
+	<link rel="icon" type="image/png" href="images/favicon.png">
 
 	<title>Home | <?=SITE_NAME?></title>
 </head>
