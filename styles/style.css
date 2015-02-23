@@ -89,6 +89,12 @@ h2,
 .color-title {
   margin-bottom: 24px;
 }
+@media (max-width: 767px) {
+  .color-title {
+    line-height: 40px;
+    font-size: 12;
+  }
+}
 .row-big {
   margin-left: -45px;
   margin-right: -45px;
@@ -129,6 +135,9 @@ q:before,
 q:after {
   content: "";
 }
+.full-width {
+  width: 100%;
+}
 .navbar-default {
   background-image: none;
   background-color: #fee4ad;
@@ -166,6 +175,7 @@ q:after {
   background-color: transparent;
 }
 .footer-wrap {
+  /* Desktop Footer Style */
   background-color: #fee4ad;
   border-top: 5px solid #ffffff;
   padding-top: 24px;
@@ -174,6 +184,7 @@ q:after {
   -webkit-box-shadow: 1px -1px 13px 0px rgba(50, 50, 50, 0.1);
   -moz-box-shadow: 1px -1px 13px 0px rgba(50, 50, 50, 0.1);
   box-shadow: 1px -1px 13px 0px rgba(50, 50, 50, 0.1);
+  /* Mobile Footer Style */
 }
 .footer-wrap ul {
   padding: 0;
@@ -183,6 +194,13 @@ q:after {
 }
 .footer-wrap ul li {
   padding-bottom: 10px;
+}
+@media (max-width: 767px) {
+  .footer-wrap {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 24px;
+  }
 }
 .homepage-links {
   margin-top: 8px;

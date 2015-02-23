@@ -58,6 +58,10 @@ h2,
 
 .color-title{
 	margin-bottom: 24px;
+	@media (max-width:@screen-xs-max) {
+		line-height: 40px;
+		font-size: 12;
+	}
 }
 
 .row-big{
@@ -104,4 +108,8 @@ q{
 	&:after{
 		content: "";
 	}
+}
+
+.full-width{
+	width:100%;
 }

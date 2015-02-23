@@ -1,4 +1,5 @@
 .footer-wrap{
+	/* Desktop Footer Style */
 	background-color: @ryb_background_dark;
 	border-top: 5px solid @ryb_white;
 
@@ -8,11 +9,19 @@
 	-webkit-box-shadow: 1px -1px 13px 0px rgba(50, 50, 50, 0.10);
 	-moz-box-shadow:    1px -1px 13px 0px rgba(50, 50, 50, 0.10);
 	box-shadow:         1px -1px 13px 0px rgba(50, 50, 50, 0.10);
-	
+
 	ul{
 		.list-reset;
 		li{
 			padding-bottom: 10px;
 		}
+	}
+	
+	/* Mobile Footer Style */
+	@media (max-width:@screen-xs-max) {
+	
+		text-align: center;
+		padding-top: 20px;
+		padding-bottom: 24px;
 	}
 }

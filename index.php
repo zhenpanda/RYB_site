@@ -17,25 +17,28 @@
 		<!--|____________| -->
 		<div class="row">
 
-			<div class="col-xs-12 text-center"><img src="images/Home Page Img Folder/mainPagePic.jpg" alt="" /> </div>
+			<div class="col-xs-12 text-center hidden-xs"><img class="img-responsive full-width" src="images/Home Page Img Folder/mainPagePic.jpg" alt="" /> </div>
 			<!-- Main Page Image -->
 			<div class="col-xs-12 text-center homepage-links">
-			<!-- Block links -->			 
-				<div class="four-box-spacing">
-					<?php for($count = 0; $count < count($box_images); $count++): ?>
-	          			<div class="col-xs-3 spacing-reset">
-	          				<a href="#" class="">
-	          					<img src="<?=$box_images[$count] ?>" alt="">
-	          					<h2 class="box-text"><?=$boxes_links[$language][$count]?></h2>
-	          				</a>
-	          			</div>
-	        		<?php endfor; ?>
-	        	</div>
+			<!-- Block links -->
+				<div class="row">
+					<div class="four-box-spacing">
+						<?php for($count = 0; $count < count($box_images); $count++): ?>
+		          			<div class="col-xs-12 col-sm-3 spacing-reset">
+		          				<a href="#" class="">
+		          					<img src="<?=$box_images[$count] ?>" alt="">
+		          					<h2 class="box-text"><?=$boxes_links[$language][$count]?></h2>
+		          				</a>
+		          			</div>
+		        		<?php endfor; ?>
+		        	</div>
+				</div>			 
+
         	</div>
 		</div>
 	</div>
 
-	<div class="homepage-middle-wrapper">
+	<div class="homepage-middle-wrapper hidden-xs">
 		<!-- middle page wrapper for container -->
 		<div class="container homepage-middle">
 			
@@ -73,7 +76,7 @@
 		</div>
 	</div>
 
-	<div class="container homepage-bottom">
+	<div class="container homepage-bottom hidden-xs">
 		<div class="row">
 		<!-- Bottom Page Area-->
 			<div class="col-xs-12">		
