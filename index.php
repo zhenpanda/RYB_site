@@ -12,24 +12,27 @@
 	<!-- Header Nav Bar -->
 	<?php require_once('includes/header.php');?>
 	
-	<!-- Main Content of homepage -->
-	<div class="container homepage-top"> 
+	<!-- **************************************************************************************************** -->	
+	<!-- Desktop main Content of homepage -->
+	<div class="container homepage-top hidden-xs"> 
 		<!--|____________| -->
 		<div class="row">
 
-			<div class="col-xs-12 text-center hidden-xs"><img class="img-responsive full-width" src="images/Home Page Img Folder/mainPagePic.jpg" alt="" /> </div>
-			<!-- Main Page Image -->
+			<!-- Desktop display image -->
+			<div class="col-xs-12 text-center hidden-xs"><img class="img-responsive full-width" src="images/Home Page Img Folder/mainPagePic.jpg" alt="" /></div>
 			<div class="col-xs-12 text-center homepage-links">
-
 			<!-- Block links -->
-				<div class="row homepage-links">
+				<div class="row homepage-links hidden-xs">
 					<div class="col-xs-10 col-xs-offset-1">
-						<div class="col-xs-3 block-link ryb-bg-red">
-							<a href="">
-								<img src="images/Home Page Img Folder/missionBlockImg.png">
-								<div class="h2">教育目標</div>
-							</a>
-						</div>
+						<!-- Use PHP to loop through an array to create link block images -->
+						<?php for($count = 0; $count < count($box_images); $count++): ?>
+		          			<div class="col-xs-3 block-link ryb-bg-red">
+		          				<a href="#" class="">
+		          					<img src="<?=$box_images[$count] ?>" alt="">
+		          					<h2 class="box-text"><?=$boxes_links[$language][$count]?></h2>
+		          				</a>
+		          			</div>
+		        		<?php endfor; ?>
 		        	</div>
 				</div>			 
 
@@ -96,6 +99,31 @@
 		</div>
 	</div>
 
+	<!-- **************************************************************************************************** -->	
+	<!-- Mobile main Content of homepage -->
+	<div class="homepage-mobile-wrapper-light visible-xs">
+		<!-- Mobile title text -->
+		<div class="container visible-xs"> 
+			<!--|____________| -->
+			<div class="row">
+				<div class="col-xs-12 text-center mobile-text"><?=TITLE_MOBILE;?></div>
+			</div>
+		</div>
+	</div>
+
+	<div class="homepage-mobile-wrapper-dark visible-xs">
+		<div class="container">
+		<!--|____________| -->
+			<div class="row">
+				<!-- Mobile display image-->
+				<div class="col-xs-12">
+					<img class="img-responsive full-width" src="images/mobile Img Folder/mFrontPageImg.jpg" alt="" />
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- **************************************************************************************************** -->	
 	<!-- Footer -->
 	<?php require_once('includes/footer.php');?>
 

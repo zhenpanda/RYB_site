@@ -174,6 +174,19 @@ q:after {
 .navbar-default .navbar-nav > li.active > a:hover {
   background-color: transparent;
 }
+.navbar-moblie {
+  background-color: #fee4ad;
+  background-image: none;
+  border-width: 0px;
+  border-bottom: 5px solid #ffffff;
+  margin-bottom: 0px;
+}
+.mobile-logo img {
+  float: right;
+  padding: 8px 10px 0px 0px;
+  margin-bottom: 8px;
+  display: block;
+}
 .footer-wrap {
   /* Desktop Footer Style */
   background-color: #fee4ad;
@@ -251,6 +264,26 @@ q:after {
 }
 .box-text .h2 {
   color: #ffffff;
+}
+/* homepage mobile CSS */
+.mobile-text .h1 {
+  font-size: 275%;
+}
+.homepage-mobile-wrapper-light {
+  background-color: #faf3d2;
+  padding-top: 15px;
+  padding-bottom: 53px;
+}
+.homepage-mobile-wrapper-dark {
+  background-color: #fee4ad;
+  padding-top: 15px;
+  padding-bottom: 53px;
+}
+.mobile-underline {
+  border-top: 5px solid #ffffff;
+  border-bottom: 5px solid #ffffff;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
 }
 .blog-banner {
   margin-top: 21px;
