@@ -20,17 +20,16 @@
 			<div class="col-xs-12 text-center hidden-xs"><img class="img-responsive full-width" src="images/Home Page Img Folder/mainPagePic.jpg" alt="" /> </div>
 			<!-- Main Page Image -->
 			<div class="col-xs-12 text-center homepage-links">
+
 			<!-- Block links -->
-				<div class="row">
-					<div class="four-box-spacing">
-						<?php for($count = 0; $count < count($box_images); $count++): ?>
-		          			<div class="col-xs-12 col-sm-3 spacing-reset">
-		          				<a href="#" class="">
-		          					<img src="<?=$box_images[$count] ?>" alt="">
-		          					<h2 class="box-text"><?=$boxes_links[$language][$count]?></h2>
-		          				</a>
-		          			</div>
-		        		<?php endfor; ?>
+				<div class="row homepage-links">
+					<div class="col-xs-10 col-xs-offset-1">
+						<div class="col-xs-3 block-link ryb-bg-red">
+							<a href="">
+								<img src="images/Home Page Img Folder/missionBlockImg.png">
+								<div class="h2">教育目標</div>
+							</a>
+						</div>
 		        	</div>
 				</div>			 
 

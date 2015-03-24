@@ -16,6 +16,7 @@ require_once('content/footer.inc');
 						<?=TITLE_MARKUP_EN;?>
 					<?php endif;?>	
 				</div>
+				
 			</div>
 		</div>
 	</div>
