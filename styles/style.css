@@ -266,24 +266,50 @@ q:after {
   color: #ffffff;
 }
 /* homepage mobile CSS */
-.mobile-text .h1 {
-  font-size: 275%;
-}
-.homepage-mobile-wrapper-light {
+.mobile-homepage-title {
   background-color: #faf3d2;
   padding-top: 15px;
-  padding-bottom: 53px;
+  padding-bottom: 15px;
+  border-bottom: 5px solid #ffffff;
 }
-.homepage-mobile-wrapper-dark {
-  background-color: #fee4ad;
+.mobile-homepage-title .h1 {
+  font-size: 295%;
+}
+.mobile-homepage-image {
   padding-top: 15px;
   padding-bottom: 53px;
+  background-color: #fee4ad;
 }
-.mobile-underline {
+.mobile-home-info-page-wrapper {
+  background-color: #faf3d2;
   border-top: 5px solid #ffffff;
-  border-bottom: 5px solid #ffffff;
-  padding-bottom: 15px;
-  margin-bottom: 15px;
+  padding-top: 12px;
+}
+.mobile-home-info-registration-text {
+  background-color: #fee4ad;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  margin-bottom: 5px;
+}
+.mobile-home-info-registration-text h1 {
+  font-size: 295%;
+  color: #d53e35;
+}
+.mobile-home-info-registration-text h3 {
+  color: #d53e35;
+}
+.mobile-home-info-registration-mid-text {
+  padding-top: 18px;
+  padding-bottom: 18px;
+}
+.mobile-home-info-registration-mid-text h3 {
+  color: #d53e35;
+}
+.mobile-home-info-image {
+  padding-top: 38px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 46px;
 }
 .blog-banner {
   margin-top: 21px;

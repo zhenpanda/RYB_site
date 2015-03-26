@@ -14,6 +14,7 @@
 	
 	<!-- **************************************************************************************************** -->	
 	<!-- Desktop main Content of homepage -->
+
 	<div class="container homepage-top hidden-xs"> 
 		<!--|____________| -->
 		<div class="row">
@@ -101,28 +102,40 @@
 
 	<!-- **************************************************************************************************** -->	
 	<!-- Mobile main Content of homepage -->
-	<div class="homepage-mobile-wrapper-light visible-xs">
-		<!-- Mobile title text -->
-		<div class="container visible-xs"> 
-			<!--|____________| -->
-			<div class="row">
-				<div class="col-xs-12 text-center mobile-text"><?=TITLE_MOBILE;?></div>
-			</div>
-		</div>
-	</div>
 
-	<div class="homepage-mobile-wrapper-dark visible-xs">
-		<div class="container">
+	<!-- Mobile main title text -->
+	<div class="container visible-xs hidden-sm hidden-md hidden-lg">
 		<!--|____________| -->
-			<div class="row">
-				<!-- Mobile display image-->
-				<div class="col-xs-12">
-					<img class="img-responsive full-width" src="images/mobile Img Folder/mFrontPageImg.jpg" alt="" />
-				</div>
+		<div class="row">
+			<div class="col-xs-12 text-center mobile-homepage-title"><?=TITLE_MOBILE;?></div></div>
+		</div>
+	</div>
+
+	<!-- Mobile homepage image -->
+	<div class="container visible-xs hidden-sm hidden-md hidden-lg">
+		<!--|____________| -->
+		<div class="row">
+			<!-- Mobile display image-->
+			<div class="col-xs-12 mobile-homepage-image">
+				<img class="img-responsive full-width" src="images/mobile Img Folder/mFrontPageImg.jpg" alt="" />
 			</div>
 		</div>
 	</div>
 
+	<!-- Mobile registration page-->
+	<div class="mobile-home-info-page-wrapper visible-xs hidden-sm hidden-md hidden-lg">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 text-center mobile-home-info-registration-text"><h1>報名信息</h1></div>
+				<div class="col-xs-12 text-center mobile-home-info-registration-text"><h3>每學期十五節課</h3></div>
+				<div class="col-xs-12 text-center mobile-home-info-registration-mid-text"><h3>學校提供</h3></div>
+				<div class="col-xs-12 text-center mobile-home-info-registration-text">
+					<h3>所有教材<br/>材料及畫冊</h3>
+					<a href="#" class=""><img class="img-responsive mobile-home-info-image" src="images/mobile Img Folder/mobile-registraion-circle.png"></a>
+				 </div>
+			</div>
+		</div>
+	</div>
 	<!-- **************************************************************************************************** -->	
 	<!-- Footer -->
 	<?php require_once('includes/footer.php');?>
