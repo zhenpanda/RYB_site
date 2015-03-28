@@ -29,14 +29,15 @@ require_once('content/header.inc');
   </nav>
 </div>
 
-<div class="visible-xs">
+<div class="visible-xs hidden-sm hidden-md hidden-lg">
 <!-- Mobile display hidden on desktop display-->
   <nav class="navbar navbar-moblie" role="navigation">
     <div class="container">
       <div class="navbar-header">
-        <a class="mobile-logo" href="#"><img src="images/mobile Img Folder/mobile-logo.png" alt="logo" /></a>
+        <a class="mobile-logo" href="#">
+          <img src="images/mobile Img Folder/mobile-logo.png" alt="logo" />
+        </a>
       </div>
-
     </div>
   </nav>
 </div>

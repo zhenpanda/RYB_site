@@ -122,17 +122,29 @@
 		</div>
 	</div>
 
-	<!-- Mobile registration page-->
+	<!-- Mobile info pages-->
+	<?php for($count = 0; $count < 4; $count++): ?>
+		<div class="mobile-home-info-page-wrapper visible-xs hidden-sm hidden-md hidden-lg">
+			<div class="container">
+				<!--|____________| -->
+				<div class="row">
+					<div class="col-xs-12 text-center mobile-home-info-registration-text"><h1 class="<?=$moblie_homepage_info['page-style']['colors'][$count]?> mobile-info-title"><?=$moblie_homepage_info['title'][$language][$count]?></h1></div>
+					<div class="col-xs-12 text-center mobile-home-info-registration-text"><h3 class="<?=$moblie_homepage_info['page-style']['colors'][$count]?>"><?=$moblie_homepage_info['top'][$language][$count]?></h3></div>
+					<div class="col-xs-12 text-center mobile-home-info-registration-mid-text"><h3 class="<?=$moblie_homepage_info['page-style']['colors'][$count]?>"><?=$moblie_homepage_info['mid'][$language][$count]?></h3></div>
+					<div class="col-xs-12 text-center mobile-home-info-registration-text">
+						<h4 class="<?=$moblie_homepage_info['page-style']['colors'][$count]?>"><?=$moblie_homepage_info['bot'][$language][$count]?><br/></h4>
+						<h4 class="<?=$moblie_homepage_info['page-style']['colors'][$count]?>"><?=$moblie_homepage_info['end'][$language][$count]?></h4>
+						<a href="#" class=""><img class="img-responsive mobile-home-info-image" src="<?=$moblie_homepage_info['page-style']['images'][$count]?>"></a>
+					 </div>
+				</div>
+			</div>
+		</div>
+	<?php endfor; ?>
+
+	<!-- Mobile Footer -->
 	<div class="mobile-home-info-page-wrapper visible-xs hidden-sm hidden-md hidden-lg">
 		<div class="container">
 			<div class="row">
-				<div class="col-xs-12 text-center mobile-home-info-registration-text"><h1>報名信息</h1></div>
-				<div class="col-xs-12 text-center mobile-home-info-registration-text"><h3>每學期十五節課</h3></div>
-				<div class="col-xs-12 text-center mobile-home-info-registration-mid-text"><h3>學校提供</h3></div>
-				<div class="col-xs-12 text-center mobile-home-info-registration-text">
-					<h3>所有教材<br/>材料及畫冊</h3>
-					<a href="#" class=""><img class="img-responsive mobile-home-info-image" src="images/mobile Img Folder/mobile-registraion-circle.png"></a>
-				 </div>
 			</div>
 		</div>
 	</div>

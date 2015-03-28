@@ -86,6 +86,12 @@ h2,
 .ryb-black {
   color: #000000;
 }
+.ryb-orange {
+  color: #ff9900;
+}
+.ryb-dark-blue {
+  color: #339999;
+}
 .color-title {
   margin-bottom: 24px;
 }
@@ -291,19 +297,12 @@ q:after {
   padding-bottom: 18px;
   margin-bottom: 5px;
 }
-.mobile-home-info-registration-text h1 {
+.mobile-home-info-registration-text .mobile-info-title {
   font-size: 295%;
-  color: #d53e35;
-}
-.mobile-home-info-registration-text h3 {
-  color: #d53e35;
 }
 .mobile-home-info-registration-mid-text {
   padding-top: 18px;
   padding-bottom: 18px;
-}
-.mobile-home-info-registration-mid-text h3 {
-  color: #d53e35;
 }
 .mobile-home-info-image {
   padding-top: 38px;
