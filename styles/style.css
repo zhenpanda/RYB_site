@@ -193,6 +193,23 @@ q:after {
   margin-bottom: 8px;
   display: block;
 }
+.navbar-toggle {
+  background-color: #66cccc;
+  margin: 0;
+  padding: 22px 13px;
+  border: 0;
+}
+.navbar-toggle .icon-bar {
+  background-color: #ffffff;
+  width: 44px;
+  height: 4px;
+}
+.navbar-toggle .icon-bar + .icon-bar {
+  margin-top: 7px;
+}
+.navbar-toggle.collapsed {
+  background-color: #339999;
+}
 .footer-wrap {
   /* Desktop Footer Style */
   background-color: #fee4ad;

@@ -54,3 +54,21 @@
 		display: block;
 	}
 }
+
+.navbar-toggle{
+	background-color: @ryb_blue;
+	margin: 0;
+	padding: 22px 13px;
+	border: 0;
+	.icon-bar{
+		background-color: @ryb_white;
+		width: 44px;
+		height: 4px;
+		&+.icon-bar{
+			margin-top: 7px;
+		}
+	}
+	&.collapsed{
+		background-color: @ryb_dark_blue;
+	}
+}
