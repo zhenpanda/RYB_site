@@ -3,23 +3,6 @@ require_once('content/footer.inc');
 ?>
 
 <footer class="footer-wrap hidden-xs">
-	<!-- Extra Small Footer-->
-	<div class="">
-		<div class="container">
-			<div class="row">
-				<div class="col-xs-12">
-				<!-- |________________| -->
-					<?php if($language == 'zh-hans'):?>
-						<?=TITLE_MARKUP;?>
-					<?php elseif($language == 'en'):?>
-						<?=TITLE_MARKUP_EN;?>
-					<?php endif;?>	
-				</div>
-				
-			</div>
-		</div>
-	</div>
-	
 	<!-- Disktop Footer -->
 	<div class="">
 		<div class="container">

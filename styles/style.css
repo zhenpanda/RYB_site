@@ -92,6 +92,9 @@ h2,
 .ryb-dark-blue {
   color: #339999;
 }
+.ryb-bg-red {
+  background-color: #d53e35;
+}
 .color-title {
   margin-bottom: 24px;
 }
@@ -283,10 +286,16 @@ q:after {
 }
 .box-text {
   z-index: 100;
-  position: center;
-}
-.box-text .h2 {
+  text-align: center;
   color: #ffffff;
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  opacity: 0.7;
+}
+.block-link {
+  padding: 0;
+  position: relative;
 }
 /* homepage mobile CSS */
 .mobile-homepage-title {

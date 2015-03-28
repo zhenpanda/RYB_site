@@ -27,10 +27,10 @@
 					<div class="col-xs-10 col-xs-offset-1">
 						<!-- Use PHP to loop through an array to create link block images -->
 						<?php for($count = 0; $count < count($box_images); $count++): ?>
-		          			<div class="col-xs-3 block-link ryb-bg-red">
+		          			<div class="col-xs-3 block-link">
 		          				<a href="#" class="">
-		          					<img src="<?=$box_images[$count] ?>" alt="">
-		          					<h2 class="box-text"><?=$boxes_links[$language][$count]?></h2>
+		          					<img class="img-responsive" src="<?=$box_images[$count] ?>" alt="">
+		          					<h2 class="box-text box-text"><?=$boxes_links[$language][$count]?></h2>
 		          				</a>
 		          			</div>
 		        		<?php endfor; ?>
@@ -141,13 +141,6 @@
 		</div>
 	<?php endfor; ?>
 
-	<!-- Mobile Footer -->
-	<div class="mobile-home-info-page-wrapper visible-xs hidden-sm hidden-md hidden-lg">
-		<div class="container">
-			<div class="row">
-			</div>
-		</div>
-	</div>
 	<!-- **************************************************************************************************** -->	
 	<!-- Footer -->
 	<?php require_once('includes/footer.php');?>
