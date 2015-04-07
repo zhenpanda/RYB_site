@@ -6,11 +6,12 @@
 <?php require_once('includes/head.php');?>
 
 <body>
-
 	<?php require_once('includes/header.php');?>
+	<!-- **************************************************************************************************** -->	
+	<!-- Desktop main Content of blogpost -->
 
 	<!--Blog Banner -->	
-	<div class="blog-banner">
+	<div class="blog-banner hidden-xs">
 		<div class="container"> 
 			<div class="row">
 				<!--|____________|-->
@@ -26,7 +27,7 @@
 	</div>
 
 	<!--Main Content -->
-	<div class="container "> 
+	<div class="container hidden-xs"> 
 		<div class="row">
 			<!--|_________||___|-->
 			<div class="col-xs-9 ">
@@ -74,7 +75,6 @@
 
 		</div>
 	</div>
-
 	
 	<?php require_once('includes/footer.php');?>
 

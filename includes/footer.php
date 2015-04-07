@@ -1,5 +1,6 @@
 <?php
 require_once('content/footer.inc'); 
+require_once('content/address.inc');
 ?>
 
 <footer class="footer-wrap hidden-xs">
@@ -75,13 +76,31 @@ require_once('content/footer.inc');
 	</div>
 </footer>
 
-<footer class="visible-xs hidden-sm hidden-md hidden-lg">
+<footer class="visible-xs mobile-footer-wrap hidden-sm hidden-md hidden-lg">
 	<!-- Mobile Footer -->
 	<div class="">
 		<div class="container">
 			<!--|____________| -->
 			<div class="row">
-				<div class="col-xs-12 text-center"><?=TITLE_MOBILE;?></div></div>
+				<div class="col-xs-12 footer-title text-center"><?=TITLE_MOBILE;?></div></div>
+				<h3 class="col-xs-12 text-center">
+					<?php for($count = 0; $count < 3; $count++): ?>
+						<?=$flushing_address[$language][$count]?><br>
+					<?php endfor; ?>
+				</h3>
+				<div class="col-xs-6 text-center footer-bottom">
+					<?php for($count = 0; $count < 5; $count++): ?>
+						<a href="#" class=""><h4><?=$page_links[$language][$count]?><br></h4></a>
+					<?php endfor; ?>
+				</div>
+				<div class="col-xs-6 text-center footer-bottom">
+					<?php for($count = 5; $count < 10; $count++): ?>
+						<a href="#" class=""><h4><?=$page_links[$language][$count]?><br></h4></a>
+					<?php endfor; ?>
+				</div>
+				<div class="col-xs-12 bottom-img-link">
+      				<a href="#" class=""><img class="img-responsive" src="images/Home Page Img Folder/logoBig.png" alt=""></a>
+          		</div>
 			</div>
 		</div>
 	</div>

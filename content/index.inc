@@ -15,7 +15,7 @@ $boxes_links = array(
 		'Teachers',
 	),
 	'zh-hans' => array(
-		'教育目標',
+		'報名信息',
 		'課程时间',
 		'參觀學校',
 		'學校老師',
@@ -66,7 +66,7 @@ $moblie_homepage_info = array(
 		'zh-hans' => array(
 			'報名信息',
 			'課程时间',
-			'教育目標',
+			'學校老師',
 			'參觀學校',
 		),
 	),

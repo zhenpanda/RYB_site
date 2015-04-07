@@ -44,6 +44,7 @@ $page_links = array(
 		'Schedule',
 		'Contact',
 		'Gallery',
+		'',
 	),
 	'zh-hans' => array(
 		'學校簡介',
@@ -55,5 +56,6 @@ $page_links = array(
 		'課程註冊',
 		'聯絡網頁',
 		'藝術畫廊',
+		'',
 	),
 );
