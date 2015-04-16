@@ -107,8 +107,15 @@
 	<div class="container visible-xs hidden-sm hidden-md hidden-lg">
 		<!--|____________| -->
 		<div class="row">
-			<div class="col-xs-12 text-center mobile-homepage-title"><?=TITLE_MOBILE;?></div></div>
+			<div class="col-xs-12 text-center mobile-homepage-title">
+				<?php if($language == "en"): ?> 
+					<?=TITLE_MOBILE_EN?>
+				<?php elseif($language == "zh-hans") : ?>
+				    <?=TITLE_MOBILE?>
+				<?php endif; ?>
+			</div>
 		</div>
+	</div>
 	</div>
 
 	<!-- Mobile homepage image -->

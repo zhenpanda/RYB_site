@@ -62,6 +62,10 @@ $bottom_text = array(
 $moblie_homepage_info = array(
 	'title' => array(
 		'en' => array(
+			'Registration',
+			'Schedule',
+			'Our Teachers',
+			'Visit Us',
 		),
 		'zh-hans' => array(
 			'報名信息',
@@ -72,6 +76,10 @@ $moblie_homepage_info = array(
 	),
 	'top' => array(
 		'en' => array(
+			'15 Class per Semester',
+			'Flushing School',
+			'Traditional trained',
+			'Queens Chinatown',
 		),
 		'zh-hans' => array(
 			'每學期十五節課',
@@ -82,6 +90,10 @@ $moblie_homepage_info = array(
 	),
 	'mid' => array(
 		'en' => array(
+			'School provides',
+			'Multiple Time slots',
+			'Applies',
+			'Flushing Address',
 		),
 		'zh-hans' => array(
 			'學校提供',
@@ -92,6 +104,10 @@ $moblie_homepage_info = array(
 	),
 	'bot' => array(
 		'en' => array(
+			'All material',
+			'Each class',
+			'Small group classrooms',
+			'136-18  39Ave 9FL',
 		),
 		'zh-hans' => array(
 			'所有教材',
@@ -102,6 +118,10 @@ $moblie_homepage_info = array(
 	),
 	'end' => array(
 		'en' => array(
+			'Pencils, paint, paper',
+			'One hour and half',
+			'Teaching method',
+			'Flushing, NY, 11354'
 		),
 		'zh-hans' => array(
 			'材料及畫冊',

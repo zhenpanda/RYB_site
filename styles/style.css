@@ -457,3 +457,37 @@ q:after {
 .teaser-links li:nth-child(5) {
   color: #cc66cc;
 }
+/* blogpost mobile CSS */
+.mobile-blogpost-title {
+  background-color: #faf3d2;
+  padding-top: 1px;
+  padding-bottom: 2px;
+  border-bottom: 5px solid #ffffff;
+}
+.mobile-blogpost-title .h1 {
+  font-size: 295%;
+}
+.mobile-blogspot-time-stamp {
+  background-color: #fee4ad;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-bottom: 5px solid #ffffff;
+}
+.mobile-blogspot-image {
+  padding-top: 0px;
+  padding-bottom: 53px;
+  background-color: #fee4ad;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.mobile-blogspot-text {
+  background-color: #fee4ad;
+}
+.mobile-blogspot-text p {
+  background-color: #fee4ad;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  line-height: 1.8em;
+  font-size: 115%;
+  margin-bottom: 0px;
+}

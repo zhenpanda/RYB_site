@@ -82,7 +82,14 @@ require_once('content/address.inc');
 		<div class="container">
 			<!--|____________| -->
 			<div class="row">
-				<div class="col-xs-12 footer-title text-center"><?=TITLE_MOBILE;?></div></div>
+				<div class="col-xs-12 footer-title text-center">
+					<?php if($language == "en"): ?> 
+						<?=TITLE_MOBILE_EN?>
+					<?php elseif($language == "zh-hans") : ?>
+					    <?=TITLE_MOBILE?>
+					<?php endif; ?>
+				</div>
+			</div>
 				<h3 class="col-xs-12 text-center">
 					<?php for($count = 0; $count < 3; $count++): ?>
 						<?=$flushing_address[$language][$count]?><br>

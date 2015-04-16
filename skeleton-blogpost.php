@@ -69,13 +69,77 @@
 						</div>
 					</div>
 				</div>
-
 			</div>
 
 
 		</div>
 	</div>
-	
+
+	<!-- **************************************************************************************************** -->	
+	<!-- Mobile main Content of blogpost -->
+
+	<!-- Blogspot main title text -->
+	<div class="container visible-xs hidden-sm hidden-md hidden-lg">
+		<!--|____________| -->
+		<div class="row">
+			<div class="col-xs-12 text-center mobile-blogpost-title">
+				<?php if($language == "en"): ?> 
+					<?=TITLE_MOBILE_EN?></br>
+					<h1>Fall Recruitment</h1>
+				<?php elseif($language == "zh-hans") : ?>
+				    <?=TITLE_MOBILE?></br>
+				    <h1>秋季班招生</h1>
+				<?php endif; ?>
+			</div>
+		</div>
+	</div>
+	</div>
+
+	<!-- Blogpost Time stamp -->
+	<div class="container visible-xs hidden-sm hidden-md hidden-lg">
+		<!--|____________| -->
+		<div class="row">
+			<div class="col-xs-12 text-center mobile-blogspot-time-stamp">
+				<?php if($language == "en"): ?> 
+					<h5>更新2014年9月23日，上午10時50分美東時間</h5>
+				<?php elseif($language == "zh-hans") : ?>
+				    <h5>更新2014年9月23日，上午10時50分美東時間</h5>
+				<?php endif; ?>
+			</div>
+		</div>
+	</div>
+
+	<!-- Blogpost homepage image -->
+	<div class="container visible-xs hidden-sm hidden-md hidden-lg">
+		<!--|____________| -->
+		<div class="row">
+			<!-- Mobile display image-->
+			<div class="col-xs-12 mobile-blogspot-image">
+				<img class="img-responsive full-width" src="images/mBlogPost_Img_Folder/mBlogpageImage.jpg" alt="" />
+			</div>
+		</div>
+	</div>
+
+	<!-- Footer info pages-->
+	<div class="mobile-home-info-page-wrapper visible-xs hidden-sm hidden-md hidden-lg">
+		<div class="container">
+			<!--|____________| -->
+			<div class="row">
+				<div class="col-xs-12 mobile-blogspot-text">
+					<p>藝術名校紅黃藍美術學校自創辦十五年來以重視繪畫基本功训练享譽美東華人社區。該校自創辦以來就有一整套完整的基本功訓練和想像力創意相結合的繪畫教学系统 。專業和極具實力的教師隊伍是紅黃藍美術學校教学质量的保证，所有的老師按不同的教學要求特聘來校任教。老师精通英文，国语，和广东话。学校教学环境优雅，整洁极具艺术氛围。目前秋季来临，我校在法拉盛，唐人街，布鲁仑和艾姆赫斯特的四所分校开始招收秋季班的学生。希望前来免费试课和报名。</p>
+					<p>紅黃藍美術學校2014年秋季班教学课程内容现推出。教學類容分六個部分。第一部分是兒童畫 ；這是針對4至7歲的小朋友，主要學習兒童畫，兒童水彩，儿童创意画。 這一部分主要是學会掌握正確的繪畫姿勢和正確的繪畫步驟， 學會掌握基本的</p>
+					<p class="quote-margin-offset"><q class="quote-center">素描是一切造型艺术<br />的基础，学好<br />素描是了为打好绘画<br />基本功的必修课程。</q></p>
+					<p>構圖和比例及最简单的造型能力，学会使用各种美术材料和美术用具，学会画面中个体的表现和多种物体的表现，学会与美术老师及同学间的艺术交流。第二部分是素描画；主要是针对8至12岁的小朋友，素描是一切造型艺术的基础，学好素描是了为打好绘画基本功的必修课程。素描学习从临摹开始解决最基本的绘画步骤，起笔落笔，构图要求，明暗关系。掌握了素描临摹后再开始学习素描写生，素描写生抱括静物写生，风景写生，人物写生三大部分。通过写生解决素描的造型能力，表现技巧，如素描定位，</p>
+					<p><q class="quote-center">不同年龄，不同绘画<br />程度和不同的<br />求学要求，针对性的<br />教授...绘画技法</q></p>
+					<p>第四部分是各类艺术大学艺术高中和艺术初中的考试辅导课程 很多学画的学生希望报考各类的艺术高中初中和艺术类大学，在选择学校和专业方面 ，在前往报考时所需要的作品准备方面我校会给予很完整系统的辅导帮助 ，十几年来我们有95% 的成功率 。第五部分是各类画展，各类绘画比赛，绘画考级，绘画创作的辅导。绘画比赛和参加各类画展是提高绘画积极性最重要的方法。也是评定学画学生绘画水平的手段之一。每年在我校老师的辅导下很多学生取得了各类绘画大赛的很好成绩。</p>
+					<p class="quote-margin-offset">红黄蓝美术学校根据不同年龄，不同绘画程度和不同的求学要求，针对性的教授传统和现代的绘画技法，并利用最新的绘画教材系统地进行绘画理论方面的学习，注重培养学生绘画兴趣和绘画技巧相结合，专业绘画技巧与创作相结合的理念。上课形式是从临摹作品入手，再通过绘画写生和创作，掌握并了解绘画理论及技法，每课为一小时三十分钟，每位老师一般指导5-6位学生，采用小班制个别指导教学。课程分系统专题讲解，作画过程讲解，具体绘画细节讲解，绘画方法讲解，回家作业讲解五个部分。 欢迎广大爱好绘画学习的学生前来我校参观, 免费试课,报名学习 。</p>		
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- **************************************************************************************************** -->	
+	<!-- Footer -->
 	<?php require_once('includes/footer.php');?>
 
 </body>
