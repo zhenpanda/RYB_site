@@ -20,7 +20,13 @@
 		<div class="row">
 
 			<!-- Desktop display image -->
-			<div class="col-xs-12 text-center hidden-xs"><img class="img-responsive full-width" src="images/Home Page Img Folder/mainPagePic.jpg" alt="" /></div>
+			<div class="col-xs-12 text-center hidden-xs">
+				<?php if($language == "en"): ?> 
+					<img class="img-responsive full-width" src="images/HomePage_Img_Folder/mainPagePicENG.jpg" alt="" />
+				<?php elseif($language == "zh-hans") : ?>
+				    <img class="img-responsive full-width" src="images/HomePage_Img_Folder/mainPagePicCHI.jpg" alt="" />
+				<?php endif; ?>
+			</div>
 			<div class="col-xs-12 text-center homepage-links">
 			<!-- Block links -->
 				<div class="row homepage-links hidden-xs">
@@ -55,8 +61,14 @@
 				<!-- Teaser Blocks -->	
 					<div class="row">
 						<div class="col-xs-12">
-							<?php for($count = 0; $count < 5; $count++): ?>
-			          			<div class="teaser-block"><a href="#"></a></div>
+							<?php for($count = 0; $count < 3; $count++): ?>
+			          			<div class="teaser-block">
+			          				<a href="#">
+			          					<!-- Character space ~62 CHI -->
+			          					<!-- Character space ~104 ENG -->
+			          					<h4 class="<?=$test_teaser['colors'][$count]?>"><?=$test_teaser[$language][$count]?></h4>
+			          				</a>
+			          			</div>
 			        		<?php endfor; ?>
 						</div>
 					</div>
@@ -65,12 +77,12 @@
 				<div class="col-xs-8">
 					<div class="row homepage-image-row">
 						<div class="col-xs-12">
-							<a href="#"> <img src="images/Home Page Img Folder/mainPagePicSmall1.png" alt=""> </a><a href="#"> <img src="images/Home Page Img Folder/mainPagePicSmall2.png" alt=""> </a>
+							<a href="#"> <img src="images/HomePage_Img_Folder/mainPagePicSmall1.png" alt=""> </a><a href="#"> <img src="images/HomePage_Img_Folder/mainPagePicSmall2.png" alt=""> </a>
 						</div>
 					</div>
 					<div class="row homepage-image-row">
 						<div class="col-xs-12">
-							<a href="#"> <img src="images/Home Page Img Folder/mainPagePicSmall3.png" alt=""> </a><a href="#"> <img src="images/Home Page Img Folder/mainPagePicSmall4.png" alt=""> </a>
+							<a href="#"> <img src="images/HomePage_Img_Folder/mainPagePicSmall3.png" alt=""> </a><a href="#"> <img src="images/HomePage_Img_Folder/mainPagePicSmall4.png" alt=""> </a>
 						</div>
 					</div>
 				</div>
@@ -122,14 +134,14 @@
 	<div class="container visible-xs hidden-sm hidden-md hidden-lg">
 		<!--|____________| -->
 		<div class="row">
-			<!-- Mobile display image-->
+			<!-- Mobile display image -->
 			<div class="col-xs-12 mobile-homepage-image">
-				<img class="img-responsive full-width" src="images/mobile Img Folder/mFrontPageImg.jpg" alt="" />
+				<img class="img-responsive full-width" src="images/mHomepage_Img_Folder/mFrontPageImg.jpg" alt="" />
 			</div>
 		</div>
 	</div>
 
-	<!-- Mobile info pages-->
+	<!-- Mobile info pages -->
 	<?php for($count = 0; $count < 4; $count++): ?>
 		<div class="mobile-home-info-page-wrapper visible-xs hidden-sm hidden-md hidden-lg">
 			<div class="container">
@@ -147,6 +159,46 @@
 			</div>
 		</div>
 	<?php endfor; ?>
+
+	<!-- Mobile New page -->
+	<!-- Character space ~62 CHI -->
+<!-- 
+	<div class="mobile-home-info-page-wrapper visible-xs hidden-sm hidden-md hidden-lg">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 text-center mobile-news-page">
+					<h1 class="mobile-info-title "><?=$moblie_homepage_info['title'][$language][4]?></h1>
+					<?php for($count = 0; $count < 3; $count++): ?>
+	          			<div class="teaser-block-mobile">
+	          				<a href="#">
+	          					
+	          					<h4 class="<?=$test_teaser['colors'][$count]?>"><?=$test_teaser[$language][$count]?></h4>
+	          				</a>
+	          			</div>
+	        		<?php endfor; ?>
+	        	</div>
+			</div>
+		</div>
+	</div>
+-->
+
+	<!-- Mobile bottom images page -->
+	<div class="container mobile-home-image-page-wrapper visible-xs hidden-sm hidden-md hidden-lg">
+		<!--|____________| -->
+		<div class="row">
+			<div class="col-xs-12 mobile-image"><img class="img-responsive full-width" src="images/mHomepage_Img_Folder/mImage_one.jpg" alt="" /></div>
+			<div class="col-xs-12 mobile-image"><img class="img-responsive full-width" src="images/mHomepage_Img_Folder/mImage_two.jpg" alt="" /></div>
+		</div>
+	</div>
+	<div class="container mobile-home-image-page-wrapper visible-xs hidden-sm hidden-md hidden-lg">
+		<!--|____________| -->
+		<div class="row">
+			<div class="col-xs-12 mobile-image"><img class="img-responsive full-width" src="images/mHomepage_Img_Folder/mImage_three.jpg" alt="" /></div>
+			<div class="col-xs-12 mobile-image"><img class="img-responsive full-width" src="images/mHomepage_Img_Folder/mImage_four.jpg" alt="" /></div>
+		</div>
+	</div>
+
+
 
 	<!-- **************************************************************************************************** -->	
 	<!-- Footer -->

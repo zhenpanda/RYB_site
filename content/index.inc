@@ -1,10 +1,10 @@
 <?php
 
 $box_images = array(
-	'images/Home Page Img Folder/missionBlockImg.png',
-	'images/Home Page Img Folder/applyBlockImg.png',
-	'images/Home Page Img Folder/visitBlockImg.png',
-	'images/Home Page Img Folder/teacherBlockImg.png',
+	'images/HomePage_Img_Folder/missionBlockImg.png',
+	'images/HomePage_Img_Folder/applyBlockImg.png',
+	'images/HomePage_Img_Folder/visitBlockImg.png',
+	'images/HomePage_Img_Folder/teacherBlockImg.png',
 );
 
 $boxes_links = array(
@@ -41,9 +41,9 @@ $bottom_title = array(
 );
 
 $bottom_images = array(
-	'images/Home Page Img Folder/mainPagePicCircle1.png',
-	'images/Home Page Img Folder/mainPagePicCircle2.png',
-	'images/Home Page Img Folder/mainPagePicCircle3.png',
+	'images/HomePage_Img_Folder/mainPagePicCircle1.png',
+	'images/HomePage_Img_Folder/mainPagePicCircle2.png',
+	'images/HomePage_Img_Folder/mainPagePicCircle3.png',
 );
 
 $bottom_text = array(
@@ -59,6 +59,24 @@ $bottom_text = array(
 	),
 );
 
+$test_teaser = array(
+	'en' => array(
+		'Red, yellow, blue art school art schools since its inception fifteen years to draw attention to basic ...',
+		'Red, yellow, blue art school in 2014 fall semester curriculum content is now available. Teaching class ...',
+		'Composition and proportion and easiest modeling capabilities, learn to use a variety of art materials ...',
+	),
+	'zh-hans' => array(
+		'藝術名校紅黃藍美術學校自創辦十五年來以重視繪畫基本功训练享譽美東華人社區。該校自創辦以來就有一整套完整的基本功訓練和 ...',
+		'紅黃藍美術學校 2014 年秋季班教学课程内容现推出。教學類容分六個部分。第一部分是兒童畫；這是針對4至7歲的小朋友，主要 ...',
+		'構圖和比例及最简单的造型能力，学会使用各种美术材料和美术用具，学会画面中个体的表现和多种物体的表现，学会与美术老师 ...',
+	),
+	'colors' => array(
+		'ryb-red',
+		'ryb-dark-yellow',
+		'ryb-dark-blue',
+	),
+);
+
 $moblie_homepage_info = array(
 	'title' => array(
 		'en' => array(
@@ -66,12 +84,14 @@ $moblie_homepage_info = array(
 			'Schedule',
 			'Our Teachers',
 			'Visit Us',
+			'School News',
 		),
 		'zh-hans' => array(
 			'報名信息',
 			'課程时间',
 			'學校老師',
 			'參觀學校',
+			'學校新聞',
 		),
 	),
 	'top' => array(
@@ -138,10 +158,10 @@ $moblie_homepage_info = array(
 			'ryb-purple',
 		),
 		'images' => array(
-			'images/mobile Img Folder/mobile-registraion-circle.png',
-			'images/mobile Img Folder/mobile-hours-circle.png',
-			'images/mobile Img Folder/mobile-staff-circle.png',
-			'images/mobile Img Folder/mobile-location-circle.png',
+			'images/mHomepage_Img_Folder/mobile-registraion-circle.png',
+			'images/mHomepage_Img_Folder/mobile-hours-circle.png',
+			'images/mHomepage_Img_Folder/mobile-staff-circle.png',
+			'images/mHomepage_Img_Folder/mobile-location-circle.png',
 		),
 	),
 );

@@ -68,7 +68,7 @@ require_once('content/address.inc');
 				<div class="col-xs-4">
 					<!-- |__| |__| |__| -->
 				     <a class="logo" href="#">
-				     	<img src="images/Home Page Img Folder/logoBig.png" alt="logo" />
+				     	<img src="images/HomePage_Img_Folder/logoBig.png" alt="logo" />
 				     </a>
 				</div>
 			</div>
@@ -106,7 +106,7 @@ require_once('content/address.inc');
 					<?php endfor; ?>
 				</div>
 				<div class="col-xs-12 bottom-img-link">
-      				<a href="#" class=""><img class="img-responsive" src="images/Home Page Img Folder/logoBig.png" alt=""></a>
+      				<a href="#" class=""><img class="img-responsive" src="images/HomePage_Img_Folder/logoBig.png" alt=""></a>
           		</div>
 			</div>
 		</div>

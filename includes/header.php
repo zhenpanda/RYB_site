@@ -7,7 +7,7 @@ require_once('content/header.inc');
   <nav class="navbar navbar-default" role="navigation">
     <div class="container">
       <div class="navbar-header">
-        <a class="logo" href="#"><img src="images/Home Page Img Folder/logo.png" alt="logo" /></a>
+        <a class="logo" href="#"><img src="images/HomePage_Img_Folder/logo.png" alt="logo" /></a>
       </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="ryb-navbar">
@@ -32,7 +32,7 @@ require_once('content/header.inc');
         <span class="icon-bar"></span>
       </button>
         <a class="mobile-logo pull-right" href="#">
-          <img src="images/mobile Img Folder/mobile-logo.png" alt="logo" />
+          <img src="images/mHomepage_Img_Folder/mobile-logo.png" alt="logo" />
         </a>
       </div>
     </div>
