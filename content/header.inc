@@ -7,7 +7,7 @@ $header_links = array(
 		'contact-page',
 		'teacher-hiring',
 		'student-login',
-		'page',
+		'?change_language',
 );
 
 $header_titles = array(

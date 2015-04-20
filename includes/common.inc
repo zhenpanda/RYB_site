@@ -10,4 +10,28 @@ define('TITLE_MOBILE', '<div class="spacing-reset"><span class="h1 ryb-red">紅<
 define('TITLE_MOBILE_EN', '<div class="spacing-reset"><span class="h1 ryb-red">R</span><span class="h1 ryb-blue">Y</span><span class="h1 ryb-yellow">B</span><span class="h1 ryb-purple"> ART</span>');
 
 $language = 'zh-hans';
+if (isset($_COOKIE['language'])){
+	$language = $_COOKIE['language'];
+};
+
+if (isset($_GET['change_language'])){
+	$language = language_change($language);
+}
+
+function language_change($language){
+	$new_language = "";
+	switch ($language) {
+		case 'zh-hans':
+			$new_language = 'en';
+			break;
+		case 'en':
+			$new_language = 'zh-hans';
+			break;
+	}
+	if (!empty($new_language)){
+		setcookie('language', $new_language, time()+60*60*24*30);
+		return $new_language;
+	}
+	return $language;
+}
 #$language = 'en';

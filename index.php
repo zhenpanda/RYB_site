@@ -22,9 +22,9 @@
 			<!-- Desktop display image -->
 			<div class="col-xs-12 text-center hidden-xs">
 				<?php if($language == "en"): ?> 
-					<img class="img-responsive full-width" src="images/HomePage_Img_Folder/mainPagePicENG.jpg" alt="" />
+					<img class="img-responsive full-width" src="/images/homepage_img_folder/mainPagePicENG.jpg" alt="" />
 				<?php elseif($language == "zh-hans") : ?>
-				    <img class="img-responsive full-width" src="images/HomePage_Img_Folder/mainPagePicCHI.jpg" alt="" />
+				    <img class="img-responsive full-width" src="/images/homepage_img_folder/mainPagePicCHI.jpg" alt="" />
 				<?php endif; ?>
 			</div>
 			<div class="col-xs-12 text-center homepage-links">
@@ -35,7 +35,7 @@
 						<?php for($count = 0; $count < count($box_images); $count++): ?>
 		          			<div class="col-xs-3 block-link">
 		          				<a href="#" class="">
-		          					<img class="img-responsive" src="<?=$box_images[$count] ?>" alt="">
+		          					<img class="img-responsive" src="/images/homepage_img_folder/<?=$box_images[$count] ?>" alt="">
 		          					<h3 class="box-text box-text"><?=$boxes_links[$language][$count]?></h3>
 		          				</a>
 		          			</div>
@@ -77,12 +77,12 @@
 				<div class="col-xs-8">
 					<div class="row homepage-image-row">
 						<div class="col-xs-12">
-							<a href="#"> <img src="images/HomePage_Img_Folder/mainPagePicSmall1.png" alt=""> </a><a href="#"> <img src="images/HomePage_Img_Folder/mainPagePicSmall2.png" alt=""> </a>
+							<a href="#"> <img src="/images/homepage_img_folder/mainPagePicSmall1.png" alt=""> </a><a href="#"> <img src="/images/homepage_img_folder/mainPagePicSmall2.png" alt=""> </a>
 						</div>
 					</div>
 					<div class="row homepage-image-row">
 						<div class="col-xs-12">
-							<a href="#"> <img src="images/HomePage_Img_Folder/mainPagePicSmall3.png" alt=""> </a><a href="#"> <img src="images/HomePage_Img_Folder/mainPagePicSmall4.png" alt=""> </a>
+							<a href="#"> <img src="/images/homepage_img_folder/mainPagePicSmall3.png" alt=""> </a><a href="#"> <img src="/images/homepage_img_folder/mainPagePicSmall4.png" alt=""> </a>
 						</div>
 					</div>
 				</div>
@@ -104,7 +104,7 @@
 			<?php for($count = 0; $count < 3; $count++): ?>
 				<div class="col-xs-4 text-center">
 					<a href="#" class="circle-image-link">
-						<img src= "<?=$bottom_images[$count] ?>" alt="">
+						<img src= "/images/homepage_img_folder/<?=$bottom_images[$count] ?>" alt="">
 						<div class="h1"> <?=$bottom_text[$language][$count]?> </div>
 					</a>
 				</div>

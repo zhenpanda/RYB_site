@@ -1,10 +1,10 @@
 <?php
 
 $box_images = array(
-	'images/HomePage_Img_Folder/missionBlockImg.png',
-	'images/HomePage_Img_Folder/applyBlockImg.png',
-	'images/HomePage_Img_Folder/visitBlockImg.png',
-	'images/HomePage_Img_Folder/teacherBlockImg.png',
+	'missionBlockImg.png',
+	'applyBlockImg.png',
+	'visitBlockImg.png',
+	'teacherBlockImg.png',
 );
 
 $boxes_links = array(
@@ -41,9 +41,9 @@ $bottom_title = array(
 );
 
 $bottom_images = array(
-	'images/HomePage_Img_Folder/mainPagePicCircle1.png',
-	'images/HomePage_Img_Folder/mainPagePicCircle2.png',
-	'images/HomePage_Img_Folder/mainPagePicCircle3.png',
+	'mainPagePicCircle1.png',
+	'mainPagePicCircle2.png',
+	'mainPagePicCircle3.png',
 );
 
 $bottom_text = array(
@@ -158,10 +158,10 @@ $moblie_homepage_info = array(
 			'ryb-purple',
 		),
 		'images' => array(
-			'images/mHomepage_Img_Folder/mobile-registraion-circle.png',
-			'images/mHomepage_Img_Folder/mobile-hours-circle.png',
-			'images/mHomepage_Img_Folder/mobile-staff-circle.png',
-			'images/mHomepage_Img_Folder/mobile-location-circle.png',
+			'mobile-registraion-circle.png',
+			'mobile-hours-circle.png',
+			'mobile-staff-circle.png',
+			'mobile-location-circle.png',
 		),
 	),
 );
