@@ -71,9 +71,9 @@ $test_teaser = array(
 		'構圖和比例及最简单的造型能力，学会使用各种美术材料和美术用具，学会画面中个体的表现和多种物体的表现，学会与美术老师 ...',
 	),
 	'colors' => array(
-		'ryb-red',
-		'ryb-dark-yellow',
-		'ryb-dark-blue',
+		'ryb-brown',
+		'ryb-brown',
+		'ryb-brown',
 	),
 );
 

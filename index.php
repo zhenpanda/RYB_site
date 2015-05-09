@@ -36,7 +36,7 @@
 		          			<div class="col-xs-3 block-link">
 		          				<a href="#" class="">
 		          					<img class="img-responsive" src="/images/homepage_img_folder/<?=$box_images[$count] ?>" alt="">
-		          					<h3 class="box-text box-text"><?=$boxes_links[$language][$count]?></h3>
+		          					<h3 class="box-text"><?=$boxes_links[$language][$count]?></h3>
 		          				</a>
 		          			</div>
 		        		<?php endfor; ?>

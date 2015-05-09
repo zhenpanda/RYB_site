@@ -309,7 +309,7 @@ q:after {
   text-indent: 30px;
   line-height: 1.5em;
   padding: 10px 10px 10px 10px;
-  opacity: 0.855;
+  opacity: 0.75;
 }
 .homepage-image-row {
   margin-bottom: 20px;
@@ -535,4 +535,39 @@ q:after {
   padding-bottom: 30px;
   line-height: 1.8em;
   font-size: 115%;
+}
+.registration-header {
+  margin-top: 20px;
+  padding-top: 25px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 25px;
+  margin-bottom: 25px;
+  background-color: #fee4ad;
+  width: 45%;
+  border: 5px solid #ffffff;
+}
+.registration-header .h1 {
+  font-size: 295%;
+}
+.registration-block {
+  background-color: #fee4ad;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-bottom: 50px;
+}
+.registration-button {
+  padding: 50px 0px 45px 0px;
+  margin: auto;
+}
+.registration-link {
+  position: relative;
+}
+.registration-text {
+  z-index: 100;
+  text-align: center;
+  color: #d53e35;
+  position: absolute;
+  bottom: 60px;
+  width: 100%;
 }
