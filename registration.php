@@ -20,10 +20,9 @@
 	<!-- **************************************************************************************************** -->	
 	<!-- Registration main Content of homepage -->
 
-	<div class="container registration-header hidden-xs">
+	<div class="container detail-page-header hidden-xs">
 		<!--|____________| -->
 		<div class="row">
-
 			<div class="col-xs-12 text-center hidden-xs">
 				<?php if($language == "en"): ?> 
 					<?=TITLE_REGISTRATION_EN?>

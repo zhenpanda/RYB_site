@@ -1,3 +1,6 @@
+/* General CSS */
+/* ------------------------------------------------------- */
+
 body{
 	background-color: @ryb_background_light;
 	font-family: @ryb_font_family;
@@ -19,6 +22,66 @@ a{
 	}
 }
 
+.color-title{
+	margin-bottom: 24px;
+	@media (max-width:@screen-xs-max) {
+		line-height: 40px;
+		font-size: 12;
+	}
+}
+
+.row-big{
+	margin-left: -45px;
+	margin-right: -45px;
+	> div{
+		padding-left: 45px;
+		padding-right: 45px;
+	}
+}
+
+.h7{
+	font-size: @ryb_font_size;
+	line-height: 22px;
+}
+
+.img-full-width{
+	width: 100%;
+}
+
+.full-width{
+	width:100%;
+}
+
+p{
+	letter-spacing: 0.08em;
+}
+
+q{
+	display: block;
+	.h2;
+	line-height: 1.4em;
+	padding: 10px 0;
+	border-top: 3px solid;
+	border-bottom: 3px solid;
+	border-color: @ryb_white;
+	margin: 10px 10px 0px 10px;
+
+	&.quote-left{
+		float: left;
+	}
+	&.quote-right{
+		float: right;
+	}
+
+	&:before,
+	&:after{
+		content: "";
+	}
+}
+
+/* Font CSS */
+/* ------------------------------------------------------- */
+
 h1,h2,h3,h4,h5,h6,
 .h1,.h2,.h3,.h4,.h5,.h6{
 	line-height: 1.13em;
@@ -39,6 +102,9 @@ h2,
 .h4{
 	font-size: @ryb_h4_font_size;	
 }
+
+/* Colors CSS */
+/* ------------------------------------------------------- */
 
 .ryb-red{
 	color: @ryb_red;
@@ -71,60 +137,21 @@ h2,
 	background-color: @ryb_red;
 }
 
-.color-title{
-	margin-bottom: 24px;
-	@media (max-width:@screen-xs-max) {
-		line-height: 40px;
-		font-size: 12;
+/* Detail Page Registration- Head */
+/* ------------------------------------------------------- */
+
+.detail-page-header{
+	margin-top: 20px;
+	padding-top: 25px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 25px;
+	margin-bottom: 25px;
+	background-color: @ryb_background_dark;
+	width: 45%;
+	.h1{
+		font-size: 295%;
 	}
+	border: 5px solid @ryb_white;
 }
 
-.row-big{
-	margin-left: -45px;
-	margin-right: -45px;
-	> div{
-		padding-left: 45px;
-		padding-right: 45px;
-	}
-}
-
-.h7{
-	font-size: @ryb_font_size;
-	line-height: 22px;
-}
-
-.img-full-width{
-	width: 100%;
-}
-
-p{
-	letter-spacing: 0.08em;
-}
-
-q{
-	display: block;
-	.h2;
-	line-height: 1.4em;
-	padding: 10px 0;
-	border-top: 3px solid;
-	border-bottom: 3px solid;
-	border-color: @ryb_white;
-	margin: 10px 10px 0px 10px;
-
-	&.quote-left{
-		float: left;
-	}
-	&.quote-right{
-		float: right;
-	}
-
-
-	&:before,
-	&:after{
-		content: "";
-	}
-}
-
-.full-width{
-	width:100%;
-}

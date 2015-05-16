@@ -22,6 +22,8 @@
     width: 990px;
   }
 }
+/* General CSS */
+/* ------------------------------------------------------- */
 body {
   background-color: #faf3d2;
   font-family: "Microsoft YaHei", STHeiti;
@@ -42,6 +44,60 @@ a:visited {
 a:active {
   background-color: #ffffff;
 }
+.color-title {
+  margin-bottom: 24px;
+}
+@media (max-width: 767px) {
+  .color-title {
+    line-height: 40px;
+    font-size: 12;
+  }
+}
+.row-big {
+  margin-left: -45px;
+  margin-right: -45px;
+}
+.row-big > div {
+  padding-left: 45px;
+  padding-right: 45px;
+}
+.h7 {
+  font-size: 14px;
+  line-height: 22px;
+}
+.img-full-width {
+  width: 100%;
+}
+.full-width {
+  width: 100%;
+}
+p {
+  letter-spacing: 0.08em;
+}
+q {
+  display: block;
+  line-height: 1.13em;
+  margin: 0;
+  font-size: 24px;
+  line-height: 1.4em;
+  padding: 10px 0;
+  border-top: 3px solid;
+  border-bottom: 3px solid;
+  border-color: #ffffff;
+  margin: 10px 10px 0px 10px;
+}
+q.quote-left {
+  float: left;
+}
+q.quote-right {
+  float: right;
+}
+q:before,
+q:after {
+  content: "";
+}
+/* Font CSS */
+/* ------------------------------------------------------- */
 h1,
 h2,
 h3,
@@ -71,6 +127,8 @@ h2,
 .h4 {
   font-size: 18px;
 }
+/* Colors CSS */
+/* ------------------------------------------------------- */
 .ryb-red {
   color: #d53e35;
 }
@@ -101,57 +159,21 @@ h2,
 .ryb-bg-red {
   background-color: #d53e35;
 }
-.color-title {
-  margin-bottom: 24px;
+/* Detail Page Registration- Head */
+/* ------------------------------------------------------- */
+.detail-page-header {
+  margin-top: 20px;
+  padding-top: 25px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 25px;
+  margin-bottom: 25px;
+  background-color: #fee4ad;
+  width: 45%;
+  border: 5px solid #ffffff;
 }
-@media (max-width: 767px) {
-  .color-title {
-    line-height: 40px;
-    font-size: 12;
-  }
-}
-.row-big {
-  margin-left: -45px;
-  margin-right: -45px;
-}
-.row-big > div {
-  padding-left: 45px;
-  padding-right: 45px;
-}
-.h7 {
-  font-size: 14px;
-  line-height: 22px;
-}
-.img-full-width {
-  width: 100%;
-}
-p {
-  letter-spacing: 0.08em;
-}
-q {
-  display: block;
-  line-height: 1.13em;
-  margin: 0;
-  font-size: 24px;
-  line-height: 1.4em;
-  padding: 10px 0;
-  border-top: 3px solid;
-  border-bottom: 3px solid;
-  border-color: #ffffff;
-  margin: 10px 10px 0px 10px;
-}
-q.quote-left {
-  float: left;
-}
-q.quote-right {
-  float: right;
-}
-q:before,
-q:after {
-  content: "";
-}
-.full-width {
-  width: 100%;
+.detail-page-header .h1 {
+  font-size: 295%;
 }
 .navbar-default {
   background-image: none;
@@ -535,20 +557,6 @@ q:after {
   padding-bottom: 30px;
   line-height: 1.8em;
   font-size: 115%;
-}
-.registration-header {
-  margin-top: 20px;
-  padding-top: 25px;
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-bottom: 25px;
-  margin-bottom: 25px;
-  background-color: #fee4ad;
-  width: 45%;
-  border: 5px solid #ffffff;
-}
-.registration-header .h1 {
-  font-size: 295%;
 }
 .registration-block {
   background-color: #fee4ad;
