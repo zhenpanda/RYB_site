@@ -18,7 +18,7 @@
 	<?php require_once('includes/header.php');?>
 	
 	<!-- **************************************************************************************************** -->	
-	<!-- Registration main Content of homepage -->
+	<!-- Registration Desktop Page -->
 
 	<div class="container detail-page-header hidden-xs">
 		<!--|____________| -->
@@ -43,14 +43,16 @@
 					<div class="row">
 					<?php for($block =0; $block < 4; $block++): ?>
 						<div class="col-xs-3 text-center">
+							<!-- Check and put the correct content for the block -->
 							<?php if($block == 0): ?> 
 								<img class="img-responsive registration-button" src="/images/RegistrationPage_Img_Folder/<?=$registration_button[$count]?>" alt="">
 		          			<?php endif; ?>
 							<?php if($block == 1): ?> 
-								<img class="img-responsive registration-button" src="/images/RegistrationPage_Img_Folder/<?=$registration_icon[$count]?>" alt="">
+								<img class="img-responsive registration-button img-block" src="/images/RegistrationPage_Img_Folder/<?=$registration_icon[$count]?>" alt="">
 		          			<?php endif; ?>
 							<?php if($block == 2): ?> 
-								<a href="#" class=""><img class="img-responsive registration-button registration-link" src="/images/RegistrationPage_Img_Folder/RegText.png" alt=""></a>
+								<img class="img-responsive registration-button registration-link" src="/images/RegistrationPage_Img_Folder/RegText.png" alt="">
+								<a href="#" class=""><h5 class="<?=$registration_color[$count]?> registration-text text-block"><?=$registration_text[$language][$count]?></h5></a>
 		          			<?php endif; ?>
 							<?php if($block == 3): ?> 
 								<a href="#" class=""><img class="img-responsive registration-button" src="images/RegistrationPage_Img_Folder/<?=$registration_flat[$count]?>" alt=""></a>

@@ -159,6 +159,21 @@ h2,
 .ryb-bg-red {
   background-color: #d53e35;
 }
+.ryb-pink {
+  color: #ff9999;
+}
+.ryb-yolk {
+  color: #ff9933;
+}
+.ryb-sky-blue {
+  color: #3399cc;
+}
+.ryb-purple {
+  color: #cc66cc;
+}
+.ryb-grass-green {
+  color: #669966;
+}
 /* Detail Page Registration- Head */
 /* ------------------------------------------------------- */
 .detail-page-header {
@@ -574,14 +589,26 @@ h2,
 .registration-text {
   z-index: 100;
   text-align: center;
-  color: #d53e35;
   position: absolute;
-  bottom: 60px;
+  bottom: 48px;
   width: 100%;
 }
+h5 {
+  font-size: 45%;
+  line-height: 115%;
+}
+.text-block {
+  margin-left: -12px;
+}
+.img-block {
+  margin-top: -10px;
+  width: 105%;
+}
+.post-it-big {
+  margin-top: 40px;
+  margin-bottom: 60px;
+}
 .postit-block {
-  margin-top: 20px;
-  margin-bottom: 50px;
   background-color: #fee4ad;
   margin-left: auto;
   margin-right: auto;
@@ -594,14 +621,31 @@ h2,
 }
 h1 {
   font-size: 60px;
-  bottom: 325px;
+  bottom: 330px;
 }
 h2 {
-  font-size: 32px;
-  bottom: 60px;
+  font-size: 35px;
+  bottom: 45px;
 }
-.postit-yellow {
-  margin-top: 45px;
-  margin-bottom: 65px;
+h3 {
+  font-size: 32px;
+  bottom: 140px;
+}
+h4 {
+  font-size: 24px;
+  bottom: 45px;
+}
+h5 {
+  font-size: 22px;
+  bottom: 110px;
+}
+.postit-image {
   image-position: relative;
+}
+.poitit-text-block {
+  padding-right: 28px;
+}
+.bigPost {
+  padding-bottom: 160px;
+  margin-bottom: 100px;
 }

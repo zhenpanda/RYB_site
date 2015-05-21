@@ -1,5 +1,4 @@
 <?php
-require_once('content/footer.inc'); 
 require_once('content/address.inc');
 ?>
 
@@ -90,7 +89,7 @@ require_once('content/address.inc');
 					<?php endif; ?>
 				</div>
 			</div>
-				<h3 class="col-xs-12 text-center">
+				<h3 class="col-xs-12 text-center footer-bottom">
 					<?php for($count = 0; $count < 3; $count++): ?>
 						<?=$flushing_address[$language][$count]?><br>
 					<?php endfor; ?>

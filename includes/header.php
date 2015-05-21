@@ -32,7 +32,7 @@ require_once('content/header.inc');
         <span class="icon-bar"></span>
       </button>
         <a class="mobile-logo pull-right" href="#">
-          <img src="images/mobile Img Folder/mobile-logo.png" alt="logo" />
+          <img src="images/mobile-logo.png" alt="logo" />
         </a>
       </div>
     </div>
