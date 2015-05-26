@@ -1,0 +1,22 @@
+.schedule{
+/* > over write the bootstarp rule*/
+	> tbody > tr{
+		> td,th{
+			width: 25%;
+			border: 2px solid @ryb_background_dark;
+			color: @ryb_black;
+			text-align: center;
+		}
+		/* cells with morning/afteroon class*/
+		> th{
+			font-size: 30px;
+			background-color: @ryb_green;
+		}
+		> td.afternoon{
+			background-color: @ryb_white;
+		}
+		> td.blank{
+			background-color: @ryb_purple;
+		}
+	}
+}

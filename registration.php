@@ -13,7 +13,7 @@
       href="images/favicon.png">
 
 
-<body>
+<body class= "registration-page">
 	<!-- Header Nav Bar -->
 	<?php require_once('includes/header.php');?>
 	
@@ -36,14 +36,14 @@
 
 	<div class="container hidden-xs">
 		<!--|____________| -->
+
 		<div class="row">
-		<!-- Use PHP to loop through an array to create link block images -->
-			<?php for($count = 0; $count < 5; $count++): ?>
-				<div class="col-xs-12 registration-block">
-					<div class="row">
-					<?php for($block =0; $block < 4; $block++): ?>
-						<div class="col-xs-3 text-center">
-							<!-- Check and put the correct content for the block -->
+			<div class="col-xs-12">
+				<?php for($count = 0; $count < 5; $count++): ?>
+				<table class="registration-block">
+					<tr>
+						<?php for($block =0; $block < 4; $block++): ?>
+							<td class="text-center">
 							<?php if($block == 0): ?> 
 								<img class="img-responsive registration-button" src="/images/RegistrationPage_Img_Folder/<?=$registration_button[$count]?>" alt="">
 		          			<?php endif; ?>
@@ -51,17 +51,17 @@
 								<img class="img-responsive registration-button img-block" src="/images/RegistrationPage_Img_Folder/<?=$registration_icon[$count]?>" alt="">
 		          			<?php endif; ?>
 							<?php if($block == 2): ?> 
-								<img class="img-responsive registration-button registration-link" src="/images/RegistrationPage_Img_Folder/RegText.png" alt="">
-								<a href="#" class=""><h5 class="<?=$registration_color[$count]?> registration-text text-block"><?=$registration_text[$language][$count]?></h5></a>
+								<a href="#" class=""><p class="<?=$registration_color[$count]?> registration-text text-block"><?=$registration_text[$language][$count]?></p></a>
 		          			<?php endif; ?>
 							<?php if($block == 3): ?> 
 								<a href="#" class=""><img class="img-responsive registration-button" src="images/RegistrationPage_Img_Folder/<?=$registration_flat[$count]?>" alt=""></a>
 		          			<?php endif; ?>
-						</div> 
-					<?php endfor; ?>
-					</div>
-				</div>
-			<?php endfor; ?>
+							</td>
+						<?php endfor; ?>
+					</tr>
+				</table>
+				<?php endfor; ?>
+			</div>
 		</div>
 
 	</div>

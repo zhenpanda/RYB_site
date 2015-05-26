@@ -12,7 +12,7 @@
       type="image/png" 
       href="images/favicon.png">
 
-<body>
+<body class="contact-page">
 	<!-- Header Nav Bar -->
 	<?php require_once('includes/header.php');?>
 

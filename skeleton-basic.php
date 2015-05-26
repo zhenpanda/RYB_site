@@ -10,14 +10,12 @@
 
 
 <body>
-
 	<?php require_once('includes/header.php');?>
 
-	<div class="container main-container"> </div>
+	<div class="container main-container"> 
+	<!-- Main content goes here -->
+	</div>
 	
 	<?php require_once('includes/footer.php');?>
-
 </body>
 </html>
-
-
