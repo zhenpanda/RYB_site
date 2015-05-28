@@ -653,17 +653,23 @@ h2,
 .schedule > tbody > tr > td,
 .schedule > tbody > tr th {
   width: 25%;
-  border: 2px solid #fee4ad;
-  color: #000000;
+  border: 6px solid #fee4ad;
+  color: #996633;
   text-align: center;
 }
 .schedule > tbody > tr > th {
-  font-size: 30px;
-  background-color: #99cc33;
+  font-size: 40px;
+  background-color: #faf3d2;
 }
-.schedule > tbody > tr > td.afternoon {
+.schedule > tbody > tr > td.morning {
+  font-size: 22px;
   background-color: #ffffff;
 }
+.schedule > tbody > tr > td.afternoon {
+  font-size: 22px;
+  background-color: #faf3d2;
+}
 .schedule > tbody > tr > td.blank {
-  background-color: #cc66cc;
+  font-size: 22px;
+  background-color: #cc9966;
 }

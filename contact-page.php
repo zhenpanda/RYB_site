@@ -1,16 +1,14 @@
 <?php
 	require_once('includes/common.inc');
 	require_once('content/contact.inc');
+	require_once('content/links.inc');
 ?>
 
 <!DOCTYPE html>
 <html lang="en">
 <!-- load head -->
 
-<?php require_once('includes/head.php');?>
-<link rel="icon" 
-      type="image/png" 
-      href="images/favicon.png">
+<?php require_once('includes/contact.php');?>
 
 <body class="contact-page">
 	<!-- Header Nav Bar -->

@@ -1,17 +1,14 @@
 <?php
 	require_once('includes/common.inc');
 	require_once('content/registration.inc');
+	require_once('content/links.inc');
 ?>
 
 <!DOCTYPE html>
 <html lang="en">
 <!-- load head -->
 
-<?php require_once('includes/head.php');?>
-<link rel="icon" 
-      type="image/png" 
-      href="images/favicon.png">
-
+<?php require_once('includes/registration.php');?>
 
 <body class= "registration-page">
 	<!-- Header Nav Bar -->

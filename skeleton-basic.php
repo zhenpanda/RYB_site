@@ -1,12 +1,10 @@
 <?php
 	require_once('includes/common.inc');
+	require_once('content/links.inc');
 ?>
 <!DOCTYPE html>
 <html lang="en">
 <?php require_once('includes/head.php');?>
-<link rel="icon" 
-      type="image/png" 
-      href="images/favicon.png">
 
 
 <body>

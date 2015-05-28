@@ -1,6 +1,7 @@
 <?php
 	require_once('includes/common.inc');
 	require_once('content/index.inc');
+	require_once('content/links.inc');
 ?>
 
 <!DOCTYPE html>
@@ -34,7 +35,7 @@
 						<!-- Use PHP to loop through an array to create link block images -->
 						<?php for($count = 0; $count < count($box_images); $count++): ?>
 		          			<div class="col-xs-3 block-link">
-		          				<a href="#" class="">
+		          				<a href="<?=$homepage_block_links[$count]?>" class="">
 		          					<img class="img-responsive" src="/images/homepage_img_folder/<?=$box_images[$count] ?>" alt="">
 		          					<h3 class="box-text"><?=$boxes_links[$language][$count]?></h3>
 		          				</a>
