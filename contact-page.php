@@ -48,8 +48,8 @@
 	<div class="container postit-block hidden-xs bigPost">
 		<!--|____________| -->
 		<div class="row">
-			<?php for($count = 1; $count < 5; $count++): ?>
-				<div class="col-xs-3 postit-image hidden-xs">
+			<?php for($count = 1; $count < 4; $count++): ?>
+				<div class="col-xs-4 postit-image hidden-xs">
 					<img class="img-responsive img-center" src="/images/Contact_Img_folder/<?=$post_it_color[$count]?>" alt="">
 					<a href="#"><h3 class="postit-text poitit-text-block"><?=$school_names[$count]?></h3></a>
 					<a href="#"><h4 class="postit-text poitit-text-block"><?=$school_address[$count]?></h4></a>

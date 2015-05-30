@@ -24,17 +24,18 @@ require_once('content/address.inc');
 						<div class="col-xs-6">
 						<!-- |_||_| |__| |__| -->
 							<?php foreach($addresses as $count => $address): ?>
-								<?php if($count == 3):?>
+								<?php if($count == 2):?>
 									<div class="col-xs-6">
 									<!-- |_||_| |__| |__| -->
-								<?php endif;?>
+										<?php endif;?>
 
-								<a href="/<?=$location_links[$count]?>" class="location">
-									<h6 class="ryb-black"><?=$location_titles[$language][$count]?></h6>
-									<p><?=$address?></p>
-								</a>
+										<!-- Loop each element in array at target element create new div -->
+										<a href="/<?=$location_links[$count]?>" class="location">
+											<h6 class="ryb-black"><?=$location_titles[$language][$count]?></h6>
+											<p><?=$address?></p>
+										</a>
 
-								<?php if($count == 2):?>
+										<?php if($count == 1):?>
 									</div>
 								<?php endif;?>
 							<?php endforeach ?>

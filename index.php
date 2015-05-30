@@ -163,6 +163,7 @@
 
 	<!-- Mobile New page -->
 	<!-- Character space ~62 CHI -->
+	<!-- Adding text to mobile needs a new design style -->
 <!-- 
 	<div class="mobile-home-info-page-wrapper visible-xs hidden-sm hidden-md hidden-lg">
 		<div class="container">

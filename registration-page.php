@@ -48,10 +48,10 @@
 								<img class="img-responsive registration-button img-block" src="/images/RegistrationPage_Img_Folder/<?=$registration_icon[$count]?>" alt="">
 		          			<?php endif; ?>
 							<?php if($block == 2): ?> 
-								<a href="#" class=""><p class="<?=$registration_color[$count]?> registration-text text-block"><?=$registration_text[$language][$count]?></p></a>
+								<a href="<?=$registration_links[$count]?>" class=""><p class="<?=$registration_color[$count]?> registration-text text-block"><?=$registration_text[$language][$count]?></p></a>
 		          			<?php endif; ?>
 							<?php if($block == 3): ?> 
-								<a href="#" class=""><img class="img-responsive registration-button" src="images/RegistrationPage_Img_Folder/<?=$registration_flat[$count]?>" alt=""></a>
+								<a href="<?=$registration_links[$count]?>" class=""><img class="img-responsive registration-button" src="images/RegistrationPage_Img_Folder/<?=$registration_flat[$count]?>" alt=""></a>
 		          			<?php endif; ?>
 							</td>
 						<?php endfor; ?>

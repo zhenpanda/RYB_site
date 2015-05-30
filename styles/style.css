@@ -673,3 +673,10 @@ h2,
   font-size: 22px;
   background-color: #cc9966;
 }
+.bg-block {
+  background-color: #fee4ad;
+  padding-left: 0;
+  padding-right: 0;
+  padding-botton: 25px;
+  margin-bottom: 55px;
+}
