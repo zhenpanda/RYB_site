@@ -2,23 +2,20 @@
 
 $one_line_addresses = array(
 	'36-26 Main St. 2X, 9FL, Flushing NY 11354',
-	'83-25 Broadway,#3F, Elmhurst NY 11373',
-	'6402 8th Ave, #220, Brooklyn NY 11220',
 	'265 Canal St, #401, New York, NY 10013',
+	'6402 8th Ave, #220, Brooklyn NY 11220',
 );
 
 $school_names = array(
 	'en' => array(
 		'Flushing School',
-		'Elmhurst School',
-		'Brooklyn',
 		'Chinatown',
+		'Brooklyn',
 	),
 	'zh-hans' => array(
 		'法拉盛',
-		'艾姆赫斯特',
-		'布碌崙',
 		'唐人街',
+		'布碌崙',
 	),
 );
 
@@ -46,39 +43,120 @@ $time_slots = array(
 	'5:30PM - 7:00PM',
 );
 
+$page_jump_link = array(
+	'#flushing-schedule-table',
+	'#chinatown-schedule-table',
+	'#brooklyn-schedule-table',
+);
+
+$page_icon = array(
+	'sevenTrain.jpg',
+	'sixTrain.jpg',
+	'nTrain.jpg',
+);
+
+/* 0:Thursday 1:Friday 2:Saturday 3:Sunday*/
 $flushing_time_slot = array(
-	'Thursday' => array(
-		'',
-		'',
-		'',
+	'0' => array(
+		'B',
+		'B',
+		'B',
 		'T',
 		'T',
 		'T',
 	),
-	'Friday' => array(
-		'',
-		'',
-		'',
-		'',
-		'',
-		'',
+	'1' => array(
+		'B',
+		'B',
+		'B',
+		'B',
+		'B',
+		'B',
 	),
-	'Saturday' => array(
+	'2' => array(
 		'T',
 		'T',
 		'T',
 		'T',
 		'T',
-		'T',
-		'',
+		'B',
 	),
-	'Sunday' => array(
+	'3' => array(
 		'T',
 		'T',
 		'T',
 		'T',
 		'T',
+		'B',
+	),
+);
+
+$chinatown_time_slot = array(
+	'0' => array(
+		'B',
+		'B',
+		'B',
+		'B',
+		'B',
+		'B',
+	),
+	'1' => array(
+		'B',
+		'B',
+		'B',
+		'B',
+		'B',
+		'B',
+	),
+	'2' => array(
 		'T',
-		'',
+		'T',
+		'T',
+		'T',
+		'T',
+		'B',
+	),
+	'3' => array(
+		'B',
+		'B',
+		'B',
+		'B',
+		'B',
+		'B',
+	),
+);
+
+$brooklyn_time_slot = array(
+	'0' => array(
+		'B',
+		'B',
+		'B',
+		'B',
+		'B',
+		'B',
+	),
+	'1' => array(
+		'B',
+		'B',
+		'B',
+		'B',
+		'B',
+		'B',
+	),
+	'2' => array(
+		'B',
+		'B',
+		'B',
+		'B',
+		'B',
+		'B',
+	),
+	'3' => array(
+		'T',
+		'T',
+		'T',
+		'T',
+		'B',
+		'B',
 	),
 );

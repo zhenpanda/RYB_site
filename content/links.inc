@@ -14,3 +14,9 @@ $registration_links = array(
 	'construction-page.php',
 	'construction-page.php',
 );
+
+$school_links = array(
+	'',
+	'',
+	'',
+);

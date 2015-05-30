@@ -191,6 +191,16 @@ h2,
 .detail-page-header .h1 {
   font-size: 295%;
 }
+.block-text-border {
+  margin-top: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  border: 5px solid #ffffff;
+  background-color: #faf3d2;
+}
 .navbar-default {
   background-image: none;
   background-color: #fee4ad;
@@ -679,4 +689,24 @@ h2,
   padding-right: 0;
   padding-botton: 25px;
   margin-bottom: 55px;
+}
+.head-block-width {
+  width: 75%;
+}
+.subway-block {
+  width: 50%;
+  padding: 0;
+}
+.small-block-width {
+  width: 25%;
+}
+.small-block-width h1 {
+  font-size: 275%;
+}
+.big-block-width {
+  color: ryb_light_brown;
+  width: 75%;
+}
+.big-block-width h1 {
+  font-size: 255%;
 }
