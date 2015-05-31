@@ -7,6 +7,7 @@
 			border: 6px solid @ryb_background_dark;
 			color: @ryb_brown;
 			text-align: center;
+			min-height: 25px;
 		}
 		/* cells with morning/afteroon class*/
 		> th{
@@ -21,9 +22,9 @@
 			font-size: 22px;
 			background-color: @ryb_background_light;
 		}
-		> td.blank{
+		> td.none{
 			font-size: 22px;
-			background-color: @ryb_light_brown;
+			background-color: lighten(@ryb_light_brown, 16%);
 		}
 	}
 }
@@ -43,7 +44,7 @@
 .subway-block{
 	width: 50%;
 	padding: 0;
-	background-color: @ryb_background_white;
+	background-color: @ryb_white;
 }
 
 .small-block-width{

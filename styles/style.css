@@ -666,6 +666,7 @@ h2,
   border: 6px solid #fee4ad;
   color: #996633;
   text-align: center;
+  min-height: 25px;
 }
 .schedule > tbody > tr > th {
   font-size: 40px;
@@ -679,9 +680,9 @@ h2,
   font-size: 22px;
   background-color: #faf3d2;
 }
-.schedule > tbody > tr > td.blank {
+.schedule > tbody > tr > td.none {
   font-size: 22px;
-  background-color: #cc9966;
+  background-color: #e0c2a3;
 }
 .bg-block {
   background-color: #fee4ad;
@@ -696,6 +697,7 @@ h2,
 .subway-block {
   width: 50%;
   padding: 0;
+  background-color: #ffffff;
 }
 .small-block-width {
   width: 25%;

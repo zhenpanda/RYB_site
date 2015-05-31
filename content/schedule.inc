@@ -34,7 +34,7 @@ $table_header  = array(
 	),
 );
 
-$time_slots = array(
+$times = array(
 	'9:30AM - 11:00AM',
 	'11:00AM - 12:30PM',
 	'1:00PM - 2:30PM',
@@ -57,7 +57,7 @@ $page_icon = array(
 
 /* 0:Thursday 1:Friday 2:Saturday 3:Sunday*/
 $flushing_time_slot = array(
-	'0' => array(
+	array(
 		'B',
 		'B',
 		'B',
@@ -65,7 +65,7 @@ $flushing_time_slot = array(
 		'T',
 		'T',
 	),
-	'1' => array(
+	array(
 		'B',
 		'B',
 		'B',
@@ -73,7 +73,7 @@ $flushing_time_slot = array(
 		'B',
 		'B',
 	),
-	'2' => array(
+	array(
 		'T',
 		'T',
 		'T',
@@ -81,7 +81,7 @@ $flushing_time_slot = array(
 		'T',
 		'B',
 	),
-	'3' => array(
+	array(
 		'T',
 		'T',
 		'T',
@@ -159,4 +159,10 @@ $brooklyn_time_slot = array(
 		'B',
 		'B',
 	),
+);
+
+$schedules = array(
+	$flushing_time_slot,
+	$chinatown_time_slot,
+	$brooklyn_time_slot,
 );
