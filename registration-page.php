@@ -42,16 +42,16 @@
 						<?php for($block =0; $block < 4; $block++): ?>
 							<td class="text-center">
 							<?php if($block == 0): ?> 
-								<img class="img-responsive registration-button" src="/images/registrationPage_img_folder/<?=$registration_button[$count]?>" alt="">
+								<img class="img-responsive registration-button" src="/images/registrationpage_img_folder/<?=$registration_button[$count]?>" alt="">
 		          			<?php endif; ?>
 							<?php if($block == 1): ?> 
-								<img class="img-responsive registration-button img-block" src="/images/registrationPage_img_folder/<?=$registration_icon[$count]?>" alt="">
+								<img class="img-responsive registration-button img-block" src="/images/registrationpage_img_folder/<?=$registration_icon[$count]?>" alt="">
 		          			<?php endif; ?>
 							<?php if($block == 2): ?> 
 								<a href="<?=$registration_links[$count]?>" class=""><p class="<?=$registration_color[$count]?> registration-text text-block"><?=$registration_text[$language][$count]?></p></a>
 		          			<?php endif; ?>
 							<?php if($block == 3): ?> 
-								<a href="<?=$registration_links[$count]?>" class=""><img class="img-responsive registration-button" src="images/registrationPage_img_folder/<?=$registration_flat[$count]?>" alt=""></a>
+								<a href="<?=$registration_links[$count]?>" class=""><img class="img-responsive registration-button" src="images/registrationpage_img_folder/<?=$registration_flat[$count]?>" alt=""></a>
 		          			<?php endif; ?>
 							</td>
 						<?php endfor; ?>
