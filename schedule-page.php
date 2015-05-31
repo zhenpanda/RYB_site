@@ -36,7 +36,7 @@
 						<a href="<?= $page_jump_link[$count] ?>"><h1><?= $school_names['zh-hans'][$count] ?></h1></a>
 					</div>	
 					<div class="block-text-border subway-block">
-						<a href="<?= $page_jump_link[$count] ?>"> <img src="/images/Schedule_Img_Folder/<?=$page_icon[$count] ?>" alt=""> </a>
+						<a href="<?= $page_jump_link[$count] ?>"> <img src="/images/schedule_img_folder/<?=$page_icon[$count] ?>" alt=""> </a>
 					</div>
 				</div>
 			<?php endfor; ?>
