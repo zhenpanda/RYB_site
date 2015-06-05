@@ -1,3 +1,6 @@
+/* General CSS */
+/* ------------------------------------------------------- */
+
 body{
 	background-color: @ryb_background_light;
 	font-family: @ryb_font_family;
@@ -19,45 +22,12 @@ a{
 	}
 }
 
-h1,h2,h3,h4,h5,h6,
-.h1,.h2,.h3,.h4,.h5,.h6{
-	line-height: 1.13em;
-	margin: 0;
-}
-
-h1,
-.h1{
-	font-size: @ryb_h1_font_size;
-}
-h2,
-.h2{
-	font-size: @ryb_h2_font_size;
-}
-.h3{
-	font-size: @ryb_h3_font_size;	
-}
-.h4{
-	font-size: @ryb_h4_font_size;	
-}
-
-.ryb-red{
-	color: @ryb_red;
-}
-.ryb-yellow{
-	color: @ryb_yellow;
-}
-.ryb-blue{
-	color: @ryb_blue;
-}
-.ryb-purple{
-	color: @ryb_purple;
-}
-.ryb-black{
-	color: @ryb_black;
-}
-
 .color-title{
 	margin-bottom: 24px;
+	@media (max-width:@screen-xs-max) {
+		line-height: 40px;
+		font-size: 12;
+	}
 }
 
 .row-big{
@@ -74,8 +44,12 @@ h2,
 	line-height: 22px;
 }
 
-.img-full-width{
-	width: 100%;
+.img-center{
+	margin: auto;;
+}
+
+.full-width{
+	width:100%;
 }
 
 p{
@@ -99,9 +73,113 @@ q{
 		float: right;
 	}
 
-
 	&:before,
 	&:after{
 		content: "";
 	}
+}
+
+/* Font CSS */
+/* ------------------------------------------------------- */
+
+/*set the line-height for all headers red is tag, green is class */
+h1,h2,h3,h4,h5,h6,
+.h1,.h2,.h3,.h4,.h5,.h6{
+	line-height: 1.13em;
+	margin: 0;
+}
+
+h1,
+.h1{
+	font-size: @ryb_h1_font_size;
+}
+h2,
+.h2{
+	font-size: @ryb_h2_font_size;
+}
+.h3{
+	font-size: @ryb_h3_font_size;	
+}
+.h4{
+	font-size: @ryb_h4_font_size;	
+}
+
+/* Colors CSS */
+/* ------------------------------------------------------- */
+
+.ryb-red{
+	color: @ryb_red;
+}
+.ryb-light-red{
+	color: @ryb_light_red;
+}
+.ryb-yellow{
+	color: @ryb_yellow;
+}
+.ryb-dark-yellow{
+	color: @ryb_dark_yellow;
+}
+.ryb-blue{
+	color: @ryb_blue;
+}
+.ryb-purple{
+	color: @ryb_purple;
+}
+.ryb-black{
+	color: @ryb_black;
+}
+.ryb-orange{
+	color: @ryb_orange;
+}
+.ryb-dark-blue{
+	color:@ryb_dark_blue;
+}
+.ryb-bg-red{
+	background-color: @ryb_red;
+}
+
+.ryb-pink{
+	color: @ryb_pink;
+}
+.ryb-yolk{
+	color: @ryb_yolk;
+}
+.ryb-sky-blue{
+	color: @ryb_sky_blue;
+}
+.ryb-purple{
+	color: @ryb_purple;
+}
+.ryb-grass-green{
+	color: @ryb_grass_green;
+}
+
+
+/* Detail Page Registration- Head */
+/* ------------------------------------------------------- */
+
+.detail-page-header{
+	margin-top: 20px;
+	padding-top: 25px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 25px;
+	margin-bottom: 25px;
+	background-color: @ryb_background_dark;
+	width: 45%;
+	.h1{
+		font-size: 295%;
+	}
+	border: 5px solid @ryb_white;
+}
+
+.block-text-border{
+	margin-top: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-left:auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+	border: 5px solid @ryb_white;
+	background-color: @ryb_background_light;
 }

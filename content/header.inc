@@ -7,7 +7,7 @@ $header_links = array(
 		'contact-page',
 		'teacher-hiring',
 		'student-login',
-		'page',
+		'?change_language',
 );
 
 $header_titles = array(
@@ -26,8 +26,7 @@ $header_titles = array(
 		'藝術畫廊',
 		'聯絡網頁',
 		'教師招聘',
-		'學生登錄',
+		'用户登录',
 		'English',
 	),
 );
-

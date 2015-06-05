@@ -19,8 +19,14 @@
 
 .teaser-block{
 	background-color: @ryb_background_light;
-  	height: 88px;
+  	height: 160px;
   	margin-bottom: 20px;
+  	h4{
+  		text-indent: 30px;
+  		line-height: 1.5em;
+  		padding: 10px 10px 10px 10px;
+  		opacity: 0.75;
+  	};
 }
 
 .homepage-image-row{
@@ -56,8 +62,99 @@
 
 .box-text{
     z-index:100;
-    position: center;
-    .h2{
-   		color:@ryb_white;
-    }
+    text-align: center;
+   	color: @ryb_white;
+	position: absolute;
+	bottom: 10px;
+	width: 100%;
+	opacity: 0.65;
 }
+
+.block-link{
+	padding: 0;
+	position: relative;
+}
+
+/* homepage mobile CSS */
+
+.mobile-homepage-title{
+	background-color: @ryb_background_light;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	.h1{
+    	font-size: 295%;
+	}
+	border-bottom: 5px solid @ryb_white;
+}
+
+.mobile-homepage-image{
+	padding-top: 15px;
+	padding-bottom: 53px;	
+	background-color: @ryb_background_dark;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.mobile-home-info-page-wrapper{
+	background-color: @ryb_background_light;
+	border-top: 5px solid @ryb_white;
+	padding-top: 12px;
+}
+
+.mobile-home-info-registration-text{
+	background-color: @ryb_background_dark;
+	padding-top: 18px;
+	.mobile-info-title{
+		font-size: 295%;
+	}
+	padding-bottom: 18px;
+	margin-bottom: 5px;
+}
+
+.mobile-home-info-registration-mid-text{
+	padding-top: 18px;
+	padding-bottom: 18px;
+}
+
+.mobile-home-info-image{
+	padding-top: 38px;
+	margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 46px;
+}
+
+.mobile-news-page{
+	padding-top: 20px;
+	background-color: @ryb_background_dark;
+	.mobile-info-title{
+		font-size: 295%;
+	}
+	padding-bottom: 28px;
+	margin-bottom: 20px;
+}
+
+.teaser-block-mobile{
+	background-color: @ryb_background_light;
+  	height: 120px;
+  	margin-top: 20px;
+  	margin-bottom: 20px;
+  	h4{
+  		line-height: 1.5em;
+  		padding: 10px 10px 10px 10px;
+  	}
+}
+
+.mobile-home-image-page-wrapper{
+	background-color: @ryb_background_dark;
+	border-top: 5px solid @ryb_white;
+	margin-top: 30px;
+	padding-bottom: 35px;
+}
+
+.mobile-image{
+	padding-top: 30px;
+	background-color: @ryb_background_dark;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+

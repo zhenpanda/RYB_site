@@ -37,3 +37,38 @@
 		}
 	}
 }
+
+
+.navbar-moblie{
+	background-color: @ryb_background_dark;
+	background-image: none;
+	border-width: 0px;
+	border-bottom: 5px solid @ryb_white;
+	margin-bottom: 0px;
+}
+.mobile-logo{
+	img{
+		float: right;
+		padding: 8px 10px 0px 0px;
+		margin-bottom: 8px;
+		display: block;
+	}
+}
+
+.navbar-toggle{
+	background-color: @ryb_blue;
+	margin: 0;
+	padding: 22px 13px;
+	border: 0;
+	.icon-bar{
+		background-color: @ryb_white;
+		width: 44px;
+		height: 4px;
+		&+.icon-bar{
+			margin-top: 7px;
+		}
+	}
+	&.collapsed{
+		background-color: @ryb_dark_blue;
+	}
+}
