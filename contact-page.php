@@ -37,8 +37,8 @@
 			<div class="col-xs-3 text-center hidden-xs"></div>
 			<div class="col-xs-6 postit-image post-it-big hidden-xs">
 				<img class="img-responsive img-center" src="/images/contact_img_folder/<?=$post_it_color[0]?>" alt="">
-				<a href="#"><h1 class="postit-text hidden-xs"><?=$school_names[0]?></h1></a>
-				<a href="#"><h2 class="postit-text hidden-xs"><?=$school_address[0]?></h2></a>
+				<a href="schedule-page.php"><h1 class="postit-text hidden-xs"><?=$school_names[0]?></h1></a>
+				<a href="schedule-page.php"><h2 class="postit-text hidden-xs"><?=$school_address[0]?></h2></a>
 			</div>
 			<div class="col-xs-3 text-center hidden-xs"></div>
 		</div>
@@ -51,7 +51,7 @@
 			<?php for($count = 1; $count < 4; $count++): ?>
 				<div class="col-xs-4 postit-image hidden-xs">
 					<img class="img-responsive img-center" src="/images/contact_img_folder/<?=$post_it_color[$count]?>" alt="">
-					<a href="#"><h3 class="postit-text poitit-text-block"><?=$school_names[$count]?></h3></a>
+					<a href="schedule-page.php"><h3 class="postit-text poitit-text-block"><?=$school_names[$count]?></h3></a>
 					<a href="#"><h4 class="postit-text poitit-text-block"><?=$school_address[$count]?></h4></a>
 				</div>
 			<?php endfor; ?>

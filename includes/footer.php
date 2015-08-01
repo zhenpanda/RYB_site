@@ -54,7 +54,7 @@ require_once('content/address.inc');
 									<?php endif;?>
 									<!-- Loop though all the links from php array, use if statement to divide into two different col -->
 									<li>
-										<a href="#" class="h3"><?=$page_links[$language][$count]?></a>
+										<a href="construction-page.php" class="h3"><?=$page_links[$language][$count]?></a>
 									</li>
 									<?php if($count == 4):?>
 										</ul>
