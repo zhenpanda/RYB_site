@@ -1,12 +1,12 @@
 <?php
 
 $header_links = array(
-		'school-info',
-		'registration-info',
-		'art-gallery',
-		'contact-page',
-		'teacher-hiring',
-		'student-login',
+		'construction-page.php',
+		'construction-page.php',
+		'construction-page.php',
+		'construction-page.php',
+		'construction-page.php',
+		'construction-page.php',
 		'?change_language',
 );
 

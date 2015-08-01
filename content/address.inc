@@ -1,17 +1,17 @@
 <?php
 
 $addresses = array(
-	'36-26 Main St. 2X, 9FL<br />Flushing NY 11354',
+	'36-26 Main St. 2X <br />Flushing NY 11354',
 	'265 Canal St, #401<br />New York, NY 10013',
 	'6402 8th Ave, #220<br />Brooklyn NY 11220',
 	'1-718-886-4008<br />1-917-822-4139',
 );
 
 $location_links = array(
-	'school-flushing',
-	'school-chinatown',
-	'school-brooklyn',
-	'contact-page',
+	'schedule-page.php',
+	'schedule-page.php',
+	'schedule-page.php',
+	'contact-page.php',
 );
 
 $location_titles = array(

@@ -64,7 +64,7 @@
 						<div class="col-xs-12">
 							<?php for($count = 0; $count < 3; $count++): ?>
 			          			<div class="teaser-block">
-			          				<a href="#">
+			          				<a href="construction-page.php">
 			          					<!-- Character space ~62 CHI -->
 			          					<!-- Character space ~104 ENG -->
 			          					<h4 class="<?=$test_teaser['colors'][$count]?>"><?=$test_teaser[$language][$count]?></h4>
@@ -78,12 +78,12 @@
 				<div class="col-xs-8">
 					<div class="row homepage-image-row">
 						<div class="col-xs-12">
-							<a href="#"> <img src="/images/homepage_img_folder/mainPagePicSmall1.png" alt=""> </a><a href="#"> <img src="/images/homepage_img_folder/mainPagePicSmall2.png" alt=""> </a>
+							<img src="/images/homepage_img_folder/mainPagePicSmall1.png" alt=""> <img src="/images/homepage_img_folder/mainPagePicSmall2.png" alt="">
 						</div>
 					</div>
 					<div class="row homepage-image-row">
 						<div class="col-xs-12">
-							<a href="#"> <img src="/images/homepage_img_folder/mainPagePicSmall3.png" alt=""> </a><a href="#"> <img src="/images/homepage_img_folder/mainPagePicSmall4.png" alt=""> </a>
+							<img src="/images/homepage_img_folder/mainPagePicSmall3.png" alt=""> <img src="/images/homepage_img_folder/mainPagePicSmall4.png" alt="">
 						</div>
 					</div>
 				</div>
@@ -104,7 +104,7 @@
 		<div class="row">
 			<?php for($count = 0; $count < 3; $count++): ?>
 				<div class="col-xs-4 text-center">
-					<a href="#" class="circle-image-link">
+					<a href="construction-page.php" class="circle-image-link">
 						<img src= "/images/homepage_img_folder/<?=$bottom_images[$count] ?>" alt="">
 						<div class="h1"> <?=$bottom_text[$language][$count]?> </div>
 					</a>

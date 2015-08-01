@@ -1,7 +1,7 @@
 <?php
 
 $one_line_addresses = array(
-	'36-26 Main St. 2X, 9FL, Flushing NY 11354',
+	'36-26 Main St. 2X, Flushing NY 11354',
 	'265 Canal St, #401, New York, NY 10013',
 	'6402 8th Ave, #220, Brooklyn NY 11220',
 );
