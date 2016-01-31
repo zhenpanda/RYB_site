@@ -167,7 +167,7 @@
 							<!--  
 							<a href="#" class=""><img class="img-responsive mobile-home-info-image" src="<?=$moblie_homepage_info['page-style']['images'][$count]?>"></a>
 							-->
-							<a href="#" class=""><img class="img-responsive mobile-home-info-image" src="<?=$mobile_images[$count]?>"></a>					
+							<a href="#" class=""><img class="img-responsive mobile-home-info-image" src=<?php if ($count == 0) { "/images/mHomepage_Img_Folder/mobile-registraion-circle.png"; } ?>></a>					
 						 </div>
 					</div>
 				</div>
