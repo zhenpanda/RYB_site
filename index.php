@@ -129,15 +129,15 @@
 		<div class="container visible-xs">
 			<!-- |____________| -->
 			<div class="row">
-				<div class="col-xs-3"></div>
-				<div class="col-xs-6 text-center mobile-homepage-title">
+				<div class="col-xs-1"></div>
+				<div class="col-xs-10 text-center mobile-homepage-title">
 					<?php if($language == "en"): ?> 
 						<?=TITLE_MOBILE_EN?>
 					<?php elseif($language == "zh-hans") : ?>
 					    <?=TITLE_MOBILE?>
 					<?php endif; ?>
 				</div>
-				<div class="col-xs-3"></div>
+				<div class="col-xs-1"></div>
 			</div>
 		</div>
 		</div>
@@ -207,14 +207,15 @@
 		</div> 
 		-->
 		</div>
+		<!-- 		
 		<div class="container mobile-home-image-page-wrapper visible-xs">
-			<!-- |____________| -->
 			<div class="row">
 				<div class="col-xs-12 mobile-image"><img class="img-responsive full-width" src="images/mHomepage_Img_Folder/mImage_three.jpg" alt="" /></div>
 				<div class="col-xs-12 mobile-image"><img class="img-responsive full-width" src="images/mHomepage_Img_Folder/mImage_four.jpg" alt="" /></div>
 			</div>
 		</div>
-		</div>
+		</div> 
+		-->
 
 </body>
 </html>
