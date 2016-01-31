@@ -129,15 +129,15 @@
 		<div class="container visible-xs">
 			<!-- |____________| -->
 			<div class="row">
-				<div class="col-xs-2"></div>
-				<div class="col-xs-8 text-center mobile-homepage-title">
+				<div class="col-xs-1"></div>
+				<div class="col-xs-10 text-center mobile-homepage-title">
 					<?php if($language == "en"): ?> 
 						<?=TITLE_MOBILE_EN?>
 					<?php elseif($language == "zh-hans") : ?>
 					    <?=TITLE_MOBILE?>
 					<?php endif; ?>
 				</div>
-				<div class="col-xs-2"></div>
+				<div class="col-xs-1"></div>
 			</div>
 		</div>
 		</div>
@@ -158,7 +158,12 @@
 				<div class="container">
 					<!-- |____________| -->
 					<div class="row">
-						<div class="col-xs-12 text-center mobile-home-info-registration-text"><h1 class="<?=$moblie_homepage_info['page-style']['colors'][$count]?> mobile-info-title"><?=$moblie_homepage_info['title'][$language][$count]?></h1></div>
+						<div class="col-xs-12 text-center mobile-home-info-registration-text">
+							<a href="#">							
+								<h1 class="<?=$moblie_homepage_info['page-style']['colors'][$count]?> mobile-info-title"><?=$moblie_homepage_info['title'][$language][$count]?>
+								</h1>
+							</a>
+						</div>
 						<div class="col-xs-12 text-center mobile-home-info-registration-text"><h3 class="<?=$moblie_homepage_info['page-style']['colors'][$count]?>"><?=$moblie_homepage_info['top'][$language][$count]?></h3></div>
 						<div class="col-xs-12 text-center mobile-home-info-registration-mid-text"><h3 class="<?=$moblie_homepage_info['page-style']['colors'][$count]?>"><?=$moblie_homepage_info['mid'][$language][$count]?></h3></div>
 						<div class="col-xs-12 text-center mobile-home-info-registration-text">
@@ -166,8 +171,7 @@
 							<h4 class="<?=$moblie_homepage_info['page-style']['colors'][$count]?>"><?=$moblie_homepage_info['end'][$language][$count]?></h4>
 							<!--  
 							<a href="#" class=""><img class="img-responsive mobile-home-info-image" src="<?=$moblie_homepage_info['page-style']['images'][$count]?>"></a>
-							-->
-							<a href="#" class=""><img class="img-responsive mobile-home-info-image" src=<?php if ($count == 0) { "./images/mHomepage_Img_Folder/mobile-registraion-circle.png"; } ?>></a>					
+							-->		
 						 </div>
 					</div>
 				</div>
