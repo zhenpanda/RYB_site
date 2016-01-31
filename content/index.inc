@@ -167,8 +167,8 @@ $moblie_homepage_info = array(
 );
 
 $mobile_images = array(
-	'../images/mHomepage_Img_Folder/mobile-registraion-circle.png',
-	'../images/mHomepage_Img_Folder/mobile-hours-circle.png',
-	'../images/mHomepage_Img_Folder/mobile-staff-circle.png',
-	'../images/mHomepage_Img_Folder/mobile-location-circle.png',
+	'./images/mHomepage_Img_Folder/mobile-registraion-circle.png',
+	'./images/mHomepage_Img_Folder/mobile-hours-circle.png',
+	'./images/mHomepage_Img_Folder/mobile-staff-circle.png',
+	'./images/mHomepage_Img_Folder/mobile-location-circle.png',
 );
