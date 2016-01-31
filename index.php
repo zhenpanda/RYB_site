@@ -142,9 +142,9 @@
 			<div class="row">
 				<div class="col-xs-3 text-center"></div>
 				<div class="col-xs-6 postit-image post-it-big">
-					<img class="img-responsive img-center" src="/images/contact_img_folder/<?=$post_it_color[0]?>" alt="">
-					<a href="schedule-page.php"><h1 class="postit-text"><?=$school_names[0]?></h1></a>
-					<a href="schedule-page.php"><h2 class="postit-text"><?=$school_address[0]?></h2></a>
+					<img class="img-responsive img-center" src="/images/contact_img_folder/postItBig.png>" alt="">
+					<a href="schedule-page.php"><h1 class="postit-text"><?php $school_names[0]?></h1></a>
+					<a href="schedule-page.php"><h2 class="postit-text"><?php $school_address[0]?></h2></a>
 				</div>
 				<div class="col-xs-3 text-center"></div>
 			</div>
