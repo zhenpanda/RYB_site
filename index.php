@@ -5,7 +5,7 @@
 ?>
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-hans">
 <!-- load head -->
 <?php require_once('includes/head.php');?>
 
