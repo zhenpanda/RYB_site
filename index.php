@@ -147,7 +147,7 @@
 			<!-- |____________| -->
 			<div class="row">
 				<div class="col-xs-12 mobile-homepage-image">
-					<img class="img-responsive full-width" src="./images/mHomepage_Img_Folder/mFrontPageImg.jpg" alt="" />
+					<img class="img-responsive full-width" src="mFrontPageImg.jpg" alt="" />
 				</div>
 			</div>
 		</div>
