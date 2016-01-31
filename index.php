@@ -16,12 +16,12 @@
 	<!-- **************************************************************************************************** -->	
 	<!-- Desktop main Content of homepage -->
 
-	<div class="container homepage-top hidden-xs"> 
+	<div class="container homepage-top"> 
 		<!--|____________| -->
 		<div class="row">
 
 			<!-- Desktop display image -->
-			<div class="col-xs-12 text-center hidden-xs">
+			<div class="col-xs-12 text-center">
 				<?php if($language == "en"): ?> 
 					<img class="img-responsive full-width" src="/images/homepage_img_folder/mainPagePicENG.jpg" alt="" />
 				<?php elseif($language == "zh-hans") : ?>
@@ -30,7 +30,7 @@
 			</div>
 			<div class="col-xs-12 text-center homepage-links">
 			<!-- Block links -->
-				<div class="row homepage-links hidden-xs">
+				<div class="row homepage-links">
 					<div class="col-xs-10 col-xs-offset-1">
 						<!-- Use PHP to loop through an array to create link block images -->
 						<?php for($count = 0; $count < count($box_images); $count++): ?>
@@ -48,7 +48,7 @@
 		</div>
 	</div>
 
-	<div class="homepage-middle-wrapper hidden-xs">
+	<div class="homepage-middle-wrapper">
 		<!-- middle page wrapper for container -->
 		<div class="container homepage-middle">
 			
@@ -92,7 +92,7 @@
 		</div>
 	</div>
 
-	<div class="container homepage-bottom hidden-xs">
+	<div class="container homepage-bottom">
 		<div class="row">
 		<!-- Bottom Page Area-->
 			<div class="col-xs-12">		
@@ -114,92 +114,94 @@
 	</div>
 
 	<!-- **************************************************************************************************** -->	
-	<!-- Mobile main Content of homepage -->
-
-	<!-- Mobile main title text -->
-	<div class="container visible-xs hidden-sm hidden-md hidden-lg">
-		<!--|____________| -->
-		<div class="row">
-			<div class="col-xs-12 text-center mobile-homepage-title">
-				<?php if($language == "en"): ?> 
-					<?=TITLE_MOBILE_EN?>
-				<?php elseif($language == "zh-hans") : ?>
-				    <?=TITLE_MOBILE?>
-				<?php endif; ?>
-			</div>
-		</div>
-	</div>
-	</div>
-
-	<!-- Mobile homepage image -->
-	<div class="container visible-xs hidden-sm hidden-md hidden-lg">
-		<!--|____________| -->
-		<div class="row">
-			<!-- Mobile display image -->
-			<div class="col-xs-12 mobile-homepage-image">
-				<img class="img-responsive full-width" src="images/mHomepage_Img_Folder/mFrontPageImg.jpg" alt="" />
-			</div>
-		</div>
-	</div>
-
-	<!-- Mobile info pages -->
-	<?php for($count = 0; $count < 4; $count++): ?>
-		<div class="mobile-home-info-page-wrapper visible-xs hidden-sm hidden-md hidden-lg">
-			<div class="container">
-				<!--|____________| -->
-				<div class="row">
-					<div class="col-xs-12 text-center mobile-home-info-registration-text"><h1 class="<?=$moblie_homepage_info['page-style']['colors'][$count]?> mobile-info-title"><?=$moblie_homepage_info['title'][$language][$count]?></h1></div>
-					<div class="col-xs-12 text-center mobile-home-info-registration-text"><h3 class="<?=$moblie_homepage_info['page-style']['colors'][$count]?>"><?=$moblie_homepage_info['top'][$language][$count]?></h3></div>
-					<div class="col-xs-12 text-center mobile-home-info-registration-mid-text"><h3 class="<?=$moblie_homepage_info['page-style']['colors'][$count]?>"><?=$moblie_homepage_info['mid'][$language][$count]?></h3></div>
-					<div class="col-xs-12 text-center mobile-home-info-registration-text">
-						<h4 class="<?=$moblie_homepage_info['page-style']['colors'][$count]?>"><?=$moblie_homepage_info['bot'][$language][$count]?><br/></h4>
-						<h4 class="<?=$moblie_homepage_info['page-style']['colors'][$count]?>"><?=$moblie_homepage_info['end'][$language][$count]?></h4>
-						<a href="#" class=""><img class="img-responsive mobile-home-info-image" src="<?=$moblie_homepage_info['page-style']['images'][$count]?>"></a>
-					 </div>
+	<!-- Mobile main Content of homepage WIP -->
+	<div class="hidden-xs">
+		
+		<!-- Mobile main title text -->
+		<div class="container visible-xs hidden-sm hidden-md hidden-lg">
+			<!--|____________| -->
+			<div class="row">
+				<div class="col-xs-12 text-center mobile-homepage-title">
+					<?php if($language == "en"): ?> 
+						<?=TITLE_MOBILE_EN?>
+					<?php elseif($language == "zh-hans") : ?>
+					    <?=TITLE_MOBILE?>
+					<?php endif; ?>
 				</div>
 			</div>
 		</div>
-	<?php endfor; ?>
+		</div>
 
-	<!-- Mobile New page -->
-	<!-- Character space ~62 CHI -->
-	<!-- Adding text to mobile needs a new design style -->
-<!-- 
-	<div class="mobile-home-info-page-wrapper visible-xs hidden-sm hidden-md hidden-lg">
-		<div class="container">
+		<!-- Mobile homepage image -->
+		<div class="container visible-xs hidden-sm hidden-md hidden-lg">
+			<!--|____________| -->
 			<div class="row">
-				<div class="col-xs-12 text-center mobile-news-page">
-					<h1 class="mobile-info-title "><?=$moblie_homepage_info['title'][$language][4]?></h1>
-					<?php for($count = 0; $count < 3; $count++): ?>
-	          			<div class="teaser-block-mobile">
-	          				<a href="#">
-	          					
-	          					<h4 class="<?=$test_teaser['colors'][$count]?>"><?=$test_teaser[$language][$count]?></h4>
-	          				</a>
-	          			</div>
-	        		<?php endfor; ?>
-	        	</div>
+				<!-- Mobile display image -->
+				<div class="col-xs-12 mobile-homepage-image">
+					<img class="img-responsive full-width" src="images/mHomepage_Img_Folder/mFrontPageImg.jpg" alt="" />
+				</div>
 			</div>
 		</div>
-	</div>
--->
 
-	<!-- Mobile bottom images page -->
-	<div class="container mobile-home-image-page-wrapper visible-xs hidden-sm hidden-md hidden-lg">
-		<!--|____________| -->
-		<div class="row">
-			<div class="col-xs-12 mobile-image"><img class="img-responsive full-width" src="images/mHomepage_Img_Folder/mImage_one.jpg" alt="" /></div>
-			<div class="col-xs-12 mobile-image"><img class="img-responsive full-width" src="images/mHomepage_Img_Folder/mImage_two.jpg" alt="" /></div>
-		</div>
-	</div>
-	<div class="container mobile-home-image-page-wrapper visible-xs hidden-sm hidden-md hidden-lg">
-		<!--|____________| -->
-		<div class="row">
-			<div class="col-xs-12 mobile-image"><img class="img-responsive full-width" src="images/mHomepage_Img_Folder/mImage_three.jpg" alt="" /></div>
-			<div class="col-xs-12 mobile-image"><img class="img-responsive full-width" src="images/mHomepage_Img_Folder/mImage_four.jpg" alt="" /></div>
-		</div>
-	</div>
+		<!-- Mobile info pages -->
+		<?php for($count = 0; $count < 4; $count++): ?>
+			<div class="mobile-home-info-page-wrapper visible-xs hidden-sm hidden-md hidden-lg">
+				<div class="container">
+					<!--|____________| -->
+					<div class="row">
+						<div class="col-xs-12 text-center mobile-home-info-registration-text"><h1 class="<?=$moblie_homepage_info['page-style']['colors'][$count]?> mobile-info-title"><?=$moblie_homepage_info['title'][$language][$count]?></h1></div>
+						<div class="col-xs-12 text-center mobile-home-info-registration-text"><h3 class="<?=$moblie_homepage_info['page-style']['colors'][$count]?>"><?=$moblie_homepage_info['top'][$language][$count]?></h3></div>
+						<div class="col-xs-12 text-center mobile-home-info-registration-mid-text"><h3 class="<?=$moblie_homepage_info['page-style']['colors'][$count]?>"><?=$moblie_homepage_info['mid'][$language][$count]?></h3></div>
+						<div class="col-xs-12 text-center mobile-home-info-registration-text">
+							<h4 class="<?=$moblie_homepage_info['page-style']['colors'][$count]?>"><?=$moblie_homepage_info['bot'][$language][$count]?><br/></h4>
+							<h4 class="<?=$moblie_homepage_info['page-style']['colors'][$count]?>"><?=$moblie_homepage_info['end'][$language][$count]?></h4>
+							<a href="#" class=""><img class="img-responsive mobile-home-info-image" src="<?=$moblie_homepage_info['page-style']['images'][$count]?>"></a>
+						 </div>
+					</div>
+				</div>
+			</div>
+		<?php endfor; ?>
 
+		<!-- Mobile New page -->
+		<!-- Character space ~62 CHI -->
+		<!-- Adding text to mobile needs a new design style -->
+	<!-- 
+		<div class="mobile-home-info-page-wrapper visible-xs hidden-sm hidden-md hidden-lg">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12 text-center mobile-news-page">
+						<h1 class="mobile-info-title "><?=$moblie_homepage_info['title'][$language][4]?></h1>
+						<?php for($count = 0; $count < 3; $count++): ?>
+		          			<div class="teaser-block-mobile">
+		          				<a href="#">
+		          					
+		          					<h4 class="<?=$test_teaser['colors'][$count]?>"><?=$test_teaser[$language][$count]?></h4>
+		          				</a>
+		          			</div>
+		        		<?php endfor; ?>
+		        	</div>
+				</div>
+			</div>
+		</div>
+	-->
+
+		<!-- Mobile bottom images page -->
+		<div class="container mobile-home-image-page-wrapper visible-xs hidden-sm hidden-md hidden-lg">
+			<!--|____________| -->
+			<div class="row">
+				<div class="col-xs-12 mobile-image"><img class="img-responsive full-width" src="images/mHomepage_Img_Folder/mImage_one.jpg" alt="" /></div>
+				<div class="col-xs-12 mobile-image"><img class="img-responsive full-width" src="images/mHomepage_Img_Folder/mImage_two.jpg" alt="" /></div>
+			</div>
+		</div>
+		<div class="container mobile-home-image-page-wrapper visible-xs hidden-sm hidden-md hidden-lg">
+			<!--|____________| -->
+			<div class="row">
+				<div class="col-xs-12 mobile-image"><img class="img-responsive full-width" src="images/mHomepage_Img_Folder/mImage_three.jpg" alt="" /></div>
+				<div class="col-xs-12 mobile-image"><img class="img-responsive full-width" src="images/mHomepage_Img_Folder/mImage_four.jpg" alt="" /></div>
+			</div>
+		</div>
+
+	</div>
 
 
 	<!-- **************************************************************************************************** -->	

@@ -2,8 +2,8 @@
 
 $one_line_addresses = array(
 	'36-26 Main St. 2X, Flushing NY 11354',
-	'265 Canal St, #401, New York, NY 10013',
-	'6402 8th Ave, #220, Brooklyn NY 11220',
+	'',
+	'',
 );
 
 $school_names = array(
@@ -14,8 +14,8 @@ $school_names = array(
 	),
 	'zh-hans' => array(
 		'法拉盛',
-		'唐人街',
-		'布碌崙',
+		'',
+		'',
 	),
 );
 
@@ -51,8 +51,8 @@ $page_jump_link = array(
 
 $page_icon = array(
 	'sevenTrain.jpg',
-	'sixTrain.jpg',
-	'nTrain.jpg',
+	'',
+	'',
 );
 
 /* 0:Thursday 1:Friday 2:Saturday 3:Sunday*/

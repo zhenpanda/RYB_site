@@ -2,8 +2,8 @@
 
 $addresses = array(
 	'36-26 Main St. 2X <br />Flushing NY 11354',
-	'265 Canal St, #401<br />New York, NY 10013',
-	'6402 8th Ave, #220<br />Brooklyn NY 11220',
+	'',
+	'',
 	'1-718-886-4008<br />1-917-822-4139',
 );
 
@@ -17,14 +17,14 @@ $location_links = array(
 $location_titles = array(
 	'en' => array(
 		'Flushing School',
-		'Chinatown',
-		'Brooklyn',
+		'',
+		'',
 		'Contact Us',
 	),
 	'zh-hans' => array(
 		'法拉盛分校',
-		'唐人街分校',
-		'布碌崙分校',
+		'',
+		'',
 		'來電垂詢',
 	),
 );
