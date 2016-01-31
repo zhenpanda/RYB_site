@@ -146,7 +146,6 @@
 		<div class="container visible-xs">
 			<!-- |____________| -->
 			<div class="row">
-				Mobile display image
 				<div class="col-xs-12 mobile-homepage-image">
 					<img class="img-responsive full-width" src="images/mHomepage_Img_Folder/mFrontPageImg.jpg" alt="" />
 				</div>
@@ -168,7 +167,7 @@
 							<!--  
 							<a href="#" class=""><img class="img-responsive mobile-home-info-image" src="<?=$moblie_homepage_info['page-style']['images'][$count]?>"></a>
 							-->
-							<a href="#" class=""><img class="img-responsive mobile-home-info-image" src="<?=$mobile_images[$count ]?>"></a>					
+							<a href="#" class=""><img class="img-responsive mobile-home-info-image" src="<?=$mobile_images[$count]?>"></a>					
 						 </div>
 					</div>
 				</div>
