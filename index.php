@@ -121,16 +121,18 @@
 	<!-- Mobile main Content of homepage WIP -->
 	<div class="hidden-sm hidden-md hidden-lg">
 
-		<div class="container detail-page-header">
+		<div class="container">
 			<!--|____________| -->
 			<div class="row">
-				<div class="col-xs-12 text-center">
+				<div class="col-xs-2 text-center"></div>
+				<div class="col-xs-8 text-center">
 					<?php if($language == "en"): ?> 
 						<?=TITLE_CONTACT_EN?>
 					<?php elseif($language == "zh-hans") : ?>
 					    <?=TITLE_CONTACT?>
 					<?php endif; ?>
 				</div>
+				<div class="col-xs-2 text-center"></div>
 			</div>
 		</div>
 		</div>
@@ -253,7 +255,9 @@
 
 	<!-- **************************************************************************************************** -->	
 	<!-- Footer -->
-	<?php require_once('includes/footer.php');?>
+	<div class="hidden-xs">
+		<?php require_once('includes/footer.php');?>
+	</div>
 
 </body>
 </html>
