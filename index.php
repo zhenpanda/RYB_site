@@ -38,7 +38,7 @@
 			          			<div class="col-xs-3 block-link">
 			          				<a href="<?=$homepage_block_links[$count]?>" class="">
 			          					<img class="img-responsive" src="/images/homepage_img_folder/<?=$box_images[$count] ?>" alt="">
-			          					<h3 class="box-text"><?=$boxes_links[$language][$count]?></h3>
+			          					<h3 class="box-text"><?php=$boxes_links[$language][$count]?></h3>
 			          				</a>
 			          			</div>
 			        		<?php endfor; ?>
@@ -56,7 +56,7 @@
 				<div class="row">
 				<!-- middle row -->			
 					<div class="col-xs-12">
-						<div class="h1 underline-title"><?=$news[$language][0]?></div>
+						<div class="h1 underline-title"><?php=$news[$language][0]?></div>
 					</div>
 
 					<div class="col-xs-4">
@@ -68,7 +68,7 @@
 				          				<a href="construction-page.php">
 				          					<!-- Character space ~62 CHI -->
 				          					<!-- Character space ~104 ENG -->
-				          					<h4 class="<?=$test_teaser['colors'][$count]?>"><?=$test_teaser[$language][$count]?></h4>
+				          					<h4 class="<?=$test_teaser['colors'][$count]?>"><?php=$test_teaser[$language][$count]?></h4>
 				          				</a>
 				          			</div>
 				        		<?php endfor; ?>
@@ -100,7 +100,7 @@
 			<!-- Bottom Page Area-->
 				<div class="col-xs-12">		
 					<!-- Bottom Page Title -->
-					<div class="h1 underline-title underline-title-bottom"><?=$bottom_title[$language][0]?></div>
+					<div class="h1 underline-title underline-title-bottom"><?php=$bottom_title[$language][0]?></div>
 				</div>
 			</div>
 
@@ -108,8 +108,8 @@
 				<?php for($count = 0; $count < 3; $count++): ?>
 					<div class="col-xs-4 text-center">
 						<a href="construction-page.php" class="circle-image-link">
-							<img src= "/images/homepage_img_folder/<?=$bottom_images[$count] ?>" alt="">
-							<div class="h1"> <?=$bottom_text[$language][$count]?> </div>
+							<img src= "/images/homepage_img_folder/<?php=$bottom_images[$count] ?>" alt="">
+							<div class="h1"> <?php=$bottom_text[$language][$count]?> </div>
 						</a>
 					</div>
 				<?php endfor; ?>
@@ -142,9 +142,9 @@
 			<div class="row">
 				<div class="col-xs-3 text-center"></div>
 				<div class="col-xs-6 postit-image post-it-big">
-					<img class="img-responsive img-center" src="/images/contact_img_folder/<?=$post_it_color[0]?>" alt="">
-					<a href="schedule-page.php"><h1 class="postit-text"><?=$school_names[0]?></h1></a>
-					<a href="schedule-page.php"><h2 class="postit-text"><?=$school_address[0]?></h2></a>
+					<img class="img-responsive img-center" src="/images/contact_img_folder/<?=$phppost_it_color[0]?>" alt="">
+					<a href="schedule-page.php"><h1 class="postit-text"><?php=$phpschool_names[0]?></h1></a>
+					<a href="schedule-page.php"><h2 class="postit-text"><?php=$phpschool_address[0]?></h2></a>
 				</div>
 				<div class="col-xs-3 text-center"></div>
 			</div>
@@ -156,9 +156,9 @@
 			<div class="row">
 				<?php for($count = 1; $count < 4; $count++): ?>
 					<div class="col-xs-4 postit-image">
-						<img class="img-responsive img-center" src="/images/contact_img_folder/<?=$post_it_color[$count]?>" alt="">
-						<a href="schedule-page.php"><h3 class="postit-text poitit-text-block"><?=$school_names[$count]?></h3></a>
-						<a href="#"><h4 class="postit-text poitit-text-block"><?=$school_address[$count]?></h4></a>
+						<img class="img-responsive img-center" src="/images/contact_img_folder/<?php=$post_it_color[$count]?>" alt="">
+						<a href="schedule-page.php"><h3 class="postit-text poitit-text-block"><?php=$school_names[$count]?></h3></a>
+						<a href="#"><h4 class="postit-text poitit-text-block"><?php=$school_address[$count]?></h4></a>
 					</div>
 				<?php endfor; ?>
 				</div>
