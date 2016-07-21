@@ -24,9 +24,9 @@
 				<!-- Desktop display image -->
 				<div class="col-xs-12 text-center">
 					<?php if($language == "en"): ?> 
-						<img class="img-responsive full-width" src="/images/homepage_img_folder/mainPagePicENG.jpg" alt="" />
+						<img class="img-responsive full-width" src="./images/homepage_img_folder/mainPagePicENG.jpg" alt="" />
 					<?php elseif($language == "zh-hans") : ?>
-					    <img class="img-responsive full-width" src="/images/homepage_img_folder/mainPagePicCHI.jpg" alt="" />
+					    <img class="img-responsive full-width" src="./images/homepage_img_folder/mainPagePicCHI.jpg" alt="" />
 					<?php endif; ?>
 				</div>
 				<div class="col-xs-12 text-center homepage-links">
@@ -37,7 +37,7 @@
 							<?php for($count = 0; $count < count($box_images); $count++): ?>
 			          			<div class="col-xs-3 block-link">
 			          				<a href="<?=$homepage_block_links[$count]?>" class="">
-			          					<img class="img-responsive" src="/images/homepage_img_folder/<?=$box_images[$count] ?>" alt="">
+			          					<img class="img-responsive" src="./images/homepage_img_folder/<?=$box_images[$count] ?>" alt="">
 			          					<h3 class="box-text"><?=$boxes_links[$language][$count]?></h3>
 			          				</a>
 			          			</div>
